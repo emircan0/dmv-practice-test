@@ -29,13 +29,6 @@ export const client = backendConfigured
     })
   : null;
 
-const EXTRA_STATE_METAS: Record<string, { name: string; url: string; qCount: number; minC: number }> = {
-  PA: { name: "Pennsylvania", url: "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual.html", qCount: 18, minC: 15 },
-  IL: { name: "Illinois", url: "https://www.ilsos.gov/publications/pdf_publications/dsd_a112.pdf", qCount: 35, minC: 28 },
-  OH: { name: "Ohio", url: "https://www.bmv.ohio.gov/forms-manuals.aspx", qCount: 40, minC: 30 },
-  GA: { name: "Georgia", url: "https://dds.georgia.gov/dds-forms-and-manuals/manuals", qCount: 40, minC: 30 },
-};
-
 export function getBundledRelease(
   state: string,
   profile: CandidateProfile,
@@ -47,43 +40,6 @@ export function getBundledRelease(
   else if (state === "TX") raw = txGeneralFirst;
   else if (state === "FL") raw = flGeneralFirst;
   else if (state === "NY") raw = nyGeneralFirst;
-  else if (EXTRA_STATE_METAS[state]) {
-    const meta = EXTRA_STATE_METAS[state];
-    const prefix = state.toLowerCase();
-    raw = {
-      ...txGeneralFirst,
-      id: `release-${prefix}-${profile}`,
-      state,
-      profile,
-      rule: {
-        id: `rule-${prefix}-${profile}`,
-        version: "1.0.0",
-        state,
-        vehicle: "car",
-        profile,
-        questionCount: meta.qCount,
-        minimumCorrect: meta.minC,
-        durationSeconds: null,
-        sections: [{ topic: "road-signs", questionCount: 8, minimumCorrect: 6 }],
-        verifiedAt: "2026-11-10",
-        sourceUrl: meta.url,
-      },
-      questions: txGeneralFirst.questions.map((q) => ({
-        ...q,
-        id: q.id.replace(/^tx-/, `${prefix}-`),
-        prompt: q.prompt.replace(/Texas/g, meta.name),
-        explanation: q.explanation.replace(/Texas/g, meta.name),
-        source: { ...q.source, url: meta.url },
-      })),
-      lessons: txGeneralFirst.lessons.map((l) => ({
-        ...l,
-        id: l.id.replace(/^tx-/, `${prefix}-`),
-        title: l.title.replace(/Texas/g, meta.name),
-        body: l.body.replace(/Texas/g, meta.name),
-        source: { ...l.source, url: meta.url },
-      })),
-    };
-  }
 
   if (!raw) return null;
 

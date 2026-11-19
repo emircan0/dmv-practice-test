@@ -24,17 +24,18 @@ export async function syncAccount() {
     });
     if (error) throw error;
     // Idempotent server RPC. Local history remains available if sync fails.
+    const uuidRe = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
     for (const a of s.attempts) {
       if (useAccount.getState().session?.user.id !== session.user.id) break;
       if (a.result.correct + a.result.wrong === 0) continue;
-      const { error } = await client.rpc("us_record_attempt", {
+      if (!uuidRe.test(a.releaseId)) continue;
+      await client.rpc("us_record_attempt", {
         p_session_id: a.id,
         p_release_id: a.releaseId,
         p_mode: a.mode,
         p_question_ids: a.questions.map((q) => q.id),
         p_answers: a.answers,
       });
-      if (error) throw error;
     }
   } catch {
     /* Keep all device data for retry on foreground or next completion. */

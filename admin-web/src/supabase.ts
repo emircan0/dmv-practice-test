@@ -10,11 +10,24 @@ const STORAGE_KEY_URL = "dmv_us_admin_supabase_url";
 const STORAGE_KEY_ROLE = "dmv_us_admin_service_role_key";
 const STORAGE_KEY_BUCKET = "dmv_us_admin_storage_bucket";
 
+const isLocalhost = () =>
+  typeof window !== "undefined" &&
+  (window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1");
+
 export const getCustomSupabaseUrl = () =>
   typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEY_URL) || "" : "";
 
-export const getServiceRoleKey = () =>
-  typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEY_ROLE) || "" : "";
+export const getServiceRoleKey = () => {
+  if (typeof window === "undefined") return "";
+  // Purge any legacy localStorage persistence of the service role key
+  localStorage.removeItem(STORAGE_KEY_ROLE);
+  if (!isLocalhost()) {
+    sessionStorage.removeItem(STORAGE_KEY_ROLE);
+    return "";
+  }
+  return sessionStorage.getItem(STORAGE_KEY_ROLE) || "";
+};
 
 export const getStorageBucket = () =>
   typeof window !== "undefined"
@@ -29,8 +42,10 @@ export const setAdminCredentials = (
   if (url.trim()) localStorage.setItem(STORAGE_KEY_URL, url.trim());
   else localStorage.removeItem(STORAGE_KEY_URL);
 
-  if (serviceRoleKey.trim()) localStorage.setItem(STORAGE_KEY_ROLE, serviceRoleKey.trim());
-  else localStorage.removeItem(STORAGE_KEY_ROLE);
+  localStorage.removeItem(STORAGE_KEY_ROLE);
+  if (serviceRoleKey.trim() && isLocalhost())
+    sessionStorage.setItem(STORAGE_KEY_ROLE, serviceRoleKey.trim());
+  else sessionStorage.removeItem(STORAGE_KEY_ROLE);
 
   if (bucket.trim()) localStorage.setItem(STORAGE_KEY_BUCKET, bucket.trim());
   else localStorage.removeItem(STORAGE_KEY_BUCKET);
@@ -41,6 +56,7 @@ export const setAdminCredentials = (
 export const clearAdminCredentials = () => {
   localStorage.removeItem(STORAGE_KEY_URL);
   localStorage.removeItem(STORAGE_KEY_ROLE);
+  sessionStorage.removeItem(STORAGE_KEY_ROLE);
   localStorage.removeItem(STORAGE_KEY_BUCKET);
   window.location.reload();
 };

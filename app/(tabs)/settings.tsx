@@ -309,7 +309,7 @@ export default function SettingsScreen() {
           padding: 10,
         }}
       >
-        DMV Smart Prep · v1.3.1
+        DMV Smart Prep · v1.0.0
       </Text>
       {editing && (
         <EditModal
