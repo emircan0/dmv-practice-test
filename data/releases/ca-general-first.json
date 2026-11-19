@@ -1,0 +1,1061 @@
+{
+  "id": "release-ca-general-first-2026-v1",
+  "version": "1.0.0",
+  "state": "CA",
+  "vehicle": "car",
+  "profile": "general-first",
+  "language": "en",
+  "publishedAt": "2026-11-10T12:00:00.000Z",
+  "rule": {
+    "id": "rule-ca-general-first-v1",
+    "version": "1.0.0",
+    "state": "CA",
+    "vehicle": "car",
+    "profile": "general-first",
+    "questionCount": 36,
+    "minimumCorrect": 30,
+    "durationSeconds": 1800,
+    "sections": [
+      {
+        "topic": "road-signs",
+        "questionCount": 8,
+        "minimumCorrect": 6
+      }
+    ],
+    "verifiedAt": "2026-11-10",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/preparing-for-knowledge-and-drive-tests/"
+  },
+  "questions": [
+    {
+      "id": "ca-signs-01",
+      "topic": "road-signs",
+      "prompt": "What must you do when you approach this red octagonal sign at an intersection?",
+      "options": [
+        "Come to a complete stop before entering the crosswalk or limit line",
+        "Slow down and proceed without stopping if no cars are coming",
+        "Stop only when pedestrians are waiting at the corner"
+      ],
+      "correctIndex": 0,
+      "explanation": "A red eight-sided (octagonal) STOP sign requires a full stop before the white limit line, crosswalk, or corner. Rolling stops are illegal even when the intersection appears clear.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MUTCD_R1-1.svg/400px-MUTCD_R1-1.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Laws and Rules of the Road - Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-02",
+      "topic": "road-signs",
+      "prompt": "What does this downward-pointing red and white triangle sign require you to do?",
+      "options": [
+        "Come to a mandatory full stop for at least 3 seconds before proceeding",
+        "Slow down, be ready to stop, and give the right-of-way to traffic and pedestrians",
+        "Speed up to merge ahead of vehicles in the adjacent lane"
+      ],
+      "correctIndex": 1,
+      "explanation": "A YIELD sign means you must slow down and be prepared to stop so you can let any vehicle, bicyclist, or pedestrian pass before you proceed.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/MUTCD_R1-2.svg/400px-MUTCD_R1-2.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-03",
+      "topic": "road-signs",
+      "prompt": "When you see this square white and red sign facing you on a ramp or roadway, what does it mean?",
+      "options": [
+        "Dead-end street — local resident traffic only",
+        "Road work ahead — reduce speed to 25 mph",
+        "Do Not Enter — opposing traffic is coming toward you"
+      ],
+      "correctIndex": 2,
+      "explanation": "The DO NOT ENTER sign indicates you are about to enter a one-way roadway or freeway ramp in the wrong direction where oncoming traffic is traveling toward you.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/MUTCD_R5-1.svg/400px-MUTCD_R5-1.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-04",
+      "topic": "road-signs",
+      "prompt": "What does this regulatory sign with a red circle and diagonal slash over a left-pointing arrow indicate?",
+      "options": [
+        "Left turns are prohibited at this intersection",
+        "The left lane ends ahead; merge right",
+        "U-turns are prohibited, but left turns are allowed"
+      ],
+      "correctIndex": 0,
+      "explanation": "A red circle with a diagonal slash over a black symbol always indicates that the action shown is prohibited. Here, making a left turn is illegal.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/MUTCD_R3-2.svg/400px-MUTCD_R3-2.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-05",
+      "topic": "road-signs",
+      "prompt": "What does this sign with a red circle and slash over a U-shaped arrow tell drivers?",
+      "options": [
+        "Sharp hairpin curve ahead; slow to 15 mph",
+        "You must not make a U-turn at this location",
+        "Turnaround area reserved for emergency vehicles only"
+      ],
+      "correctIndex": 1,
+      "explanation": "This No U-Turn regulatory sign prohibits turning around to travel in the opposite direction at that intersection or median opening.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/MUTCD_R3-4.svg/400px-MUTCD_R3-4.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-06",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond warning sign showing a car with wavy tire tracks indicate?",
+      "options": [
+        "Loose gravel surface; maintain highway speed",
+        "Winding mountain road ahead for the next 5 miles",
+        "The road ahead becomes unusually slippery when wet; reduce speed"
+      ],
+      "correctIndex": 2,
+      "explanation": "This Slippery When Wet warning sign alerts drivers that pavement traction drops significantly in rain or moisture. Slow down and avoid sudden braking or sharp turns.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MUTCD_W8-5.svg/400px-MUTCD_W8-5.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-07",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond sign with two arrows merging into one single arrow mean?",
+      "options": [
+        "Traffic from another roadway is merging into your lane ahead",
+        "Two-way traffic begins immediately after the intersection",
+        "A passing lane is opening on the right"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Merge warning sign alerts you that two lanes of traffic traveling in the same direction are about to join into a single lane. Be prepared to adjust your speed or position safely.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/MUTCD_W4-1.svg/400px-MUTCD_W4-1.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-08",
+      "topic": "road-signs",
+      "prompt": "What does a round yellow warning sign with a black 'X' and the letters 'RR' indicate?",
+      "options": [
+        "A rural route intersection is ahead; yield to cross traffic",
+        "A railroad crossing is ahead; look, listen, and be prepared to stop",
+        "Road repair zone ahead; expect flaggers"
+      ],
+      "correctIndex": 1,
+      "explanation": "A circular yellow sign with an X and 'RR' is the advance warning sign for a highway-rail grade crossing. Slow down, look both ways, and be ready to stop for trains.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MUTCD_W10-1.svg/400px-MUTCD_W10-1.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-09",
+      "topic": "road-signs",
+      "prompt": "What does a five-sided (pentagon-shaped) fluorescent yellow-green sign indicate?",
+      "options": [
+        "A pedestrian-only shopping plaza is ahead",
+        "You are entering a state park or recreational trail area",
+        "You are approaching a school zone or school crossing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Five-sided pentagon signs are used exclusively to warn drivers of school zones and school crossings. Watch closely for children and obey school zone speed limits.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/MUTCD_S1-1.svg/400px-MUTCD_S1-1.svg.png",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signs-10",
+      "topic": "road-signs",
+      "prompt": "Orange diamond-shaped signs with black lettering or symbols are used exclusively for:",
+      "options": [
+        "Road construction, maintenance, and temporary work zones",
+        "Hazardous materials truck routes",
+        "Permanent steep mountain grade warnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orange signs, cones, drums, and barricades always warn drivers of road work or maintenance zones ahead. Reduce speed, watch for workers, and obey flagger directions.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signals-01",
+      "topic": "signals-markings",
+      "prompt": "What must you do when facing a steady red arrow traffic signal?",
+      "options": [
+        "Stop first, then turn in the direction of the arrow if the way is clear",
+        "Stop completely and remain stopped until a green signal or green arrow permits the turn",
+        "Slow down and yield only to pedestrians in the crosswalk"
+      ],
+      "correctIndex": 1,
+      "explanation": "In California, a red arrow means STOP. Unlike a standard circular red light, you may NEVER turn against a red arrow, even after coming to a complete stop.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signal Lights",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signals-02",
+      "topic": "signals-markings",
+      "prompt": "How should you respond to a flashing yellow traffic signal light at an intersection?",
+      "options": [
+        "Speed up before the signal switches to solid red",
+        "Come to a full stop before entering the intersection",
+        "Slow down, stay alert, and proceed through the intersection with caution"
+      ],
+      "correctIndex": 2,
+      "explanation": "A flashing yellow signal warns you to slow down and proceed with heightened caution. You do not need to stop unless traffic or pedestrians require you to yield.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signal Lights",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signals-03",
+      "topic": "signals-markings",
+      "prompt": "If all traffic signal lights at an intersection are dark due to a power outage, what must you do?",
+      "options": [
+        "Stop at the intersection as if it were a four-way (all-way) stop and proceed when safe",
+        "If you are on the wider main street, proceed through without stopping",
+        "Turn on your hazard lights and drive straight through at 15 mph"
+      ],
+      "correctIndex": 0,
+      "explanation": "When traffic signals are not functioning (blackout), California law requires every driver approaching the intersection to come to a complete stop and follow all-way stop right-of-way rules.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signal Lights",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signals-04",
+      "topic": "signals-markings",
+      "prompt": "What do two sets of solid double yellow lines spaced two or more feet apart in the center of a roadway represent?",
+      "options": [
+        "A shared center left-turn lane open to both directions",
+        "A solid barrier; you must not drive on or across them to pass or make any turn",
+        "A reversible commuter lane used during rush hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two sets of solid double yellow lines spaced 2 feet or more apart are treated as a physical barrier/wall. Never drive across or over them to pass, turn left, or make a U-turn.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Navigating the Roads - Lane Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-signals-05",
+      "topic": "signals-markings",
+      "prompt": "A center lane bordered on each side by a solid yellow outer line and a broken yellow inner line is used for:",
+      "options": [
+        "Cruising for up to half a mile before merging into traffic",
+        "Passing slower vehicles when the right lane is congested",
+        "Making left turns from either direction, and you may drive in it for no more than 200 feet"
+      ],
+      "correctIndex": 2,
+      "explanation": "A two-way left-turn lane in the center of the road is only for preparing to turn left or entering traffic. It is not a regular travel or passing lane, and you may only drive in it for up to 200 feet.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Navigating the Roads - Center Left-Turn Lanes",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-01",
+      "topic": "right-of-way",
+      "prompt": "When two vehicles reach an uncontrolled or four-way stop intersection at the exact same time, who has the right-of-way?",
+      "options": [
+        "The driver on the right",
+        "The driver on the left",
+        "The driver traveling on the busier street"
+      ],
+      "correctIndex": 0,
+      "explanation": "When two vehicles arrive at an intersection simultaneously, the driver on the left must yield the right-of-way to the vehicle on their right.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules - Intersections",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-02",
+      "topic": "right-of-way",
+      "prompt": "At a 'T' intersection without any stop or yield signs, which vehicles have the right-of-way?",
+      "options": [
+        "Vehicles approaching on the terminating street that ends",
+        "Vehicles and pedestrians on the continuing through road",
+        "Whichever vehicle flashes its headlights first"
+      ],
+      "correctIndex": 1,
+      "explanation": "At a T-intersection without posted traffic controls, drivers on the street that ends must yield the right-of-way to all traffic and pedestrians on the continuing cross street.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules - Intersections",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-03",
+      "topic": "right-of-way",
+      "prompt": "When entering a roundabout (traffic circle), you must always:",
+      "options": [
+        "Accelerate so circulating vehicles yield to you",
+        "Come to a mandatory full stop even if no traffic is inside the circle",
+        "Yield to vehicles and bicyclists already circulating inside the roundabout and travel counterclockwise"
+      ],
+      "correctIndex": 2,
+      "explanation": "Traffic inside a roundabout always travels counterclockwise to the right of the central island and has the right-of-way. Entering drivers must yield until there is a safe gap.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules - Roundabouts",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-04",
+      "topic": "right-of-way",
+      "prompt": "When two vehicles meet on a steep, narrow mountain road where neither car can pass, who has the right-of-way?",
+      "options": [
+        "The vehicle traveling uphill; the downhill driver must yield and back up if necessary",
+        "The vehicle traveling downhill because it is moving faster",
+        "The heavier vehicle regardless of direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "On a steep mountain road where two vehicles cannot pass safely, the driver traveling downhill must yield the right-of-way to the vehicle going uphill, because the downhill driver has greater control when backing up.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules - Mountain Roads",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-05",
+      "topic": "right-of-way",
+      "prompt": "What must you do when a pedestrian with a white cane or guide dog is waiting to cross at a corner?",
+      "options": [
+        "Honk your horn twice to let the blind pedestrian know it is safe to walk",
+        "Stop before the crosswalk and yield the right-of-way until the pedestrian has safely crossed",
+        "Drive slowly around the pedestrian if they are still on the sidewalk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blind or visually impaired pedestrians using a white cane or guide dog have the right-of-way at all times. Stop within 5 feet of the crosswalk, never block the crosswalk, and never honk or give verbal directions.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules - Pedestrians",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-row-06",
+      "topic": "right-of-way",
+      "prompt": "Even if your traffic signal turns green at an intersection, you must NOT enter the intersection if:",
+      "options": [
+        "You plan to change lanes after crossing the intersection",
+        "A vehicle behind you is signaling to turn right",
+        "Traffic ahead is backed up and you cannot completely clear the intersection before the light turns red"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under California's Anti-Gridlock Law, it is illegal to enter an intersection—even on a green light—unless there is enough space on the other side to get completely across without blocking cross traffic.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Intersections and Anti-Gridlock Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-turns-01",
+      "topic": "turns-passing",
+      "prompt": "How far in advance must you activate your turn signal before making a right or left turn?",
+      "options": [
+        "At least 100 feet before making the turn",
+        "At least 25 feet before the corner",
+        "Only after you begin turning the steering wheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "California law requires drivers to signal during the last 100 feet before turning right or left so other drivers, cyclists, and pedestrians have time to react.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 5: Signaling, Horn, and Headlights",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-turns-02",
+      "topic": "turns-passing",
+      "prompt": "When making a right turn at an intersection where a bicycle lane is present on your right, how must you turn?",
+      "options": [
+        "Stay in your travel lane and turn sharply across the front of the bicycle lane",
+        "Signal, check your blind spot, merge safely into the bicycle lane no more than 200 feet before the corner, and then turn",
+        "Enter the bicycle lane half a mile early to block bicycles from passing"
+      ],
+      "correctIndex": 1,
+      "explanation": "To prevent 'right-hook' collisions with cyclists, California requires drivers making a right turn to check for bicyclists, merge into the bike lane within 200 feet of the turn, and complete the turn from near the curb.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Turns and Bicycle Lanes",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-turns-03",
+      "topic": "turns-passing",
+      "prompt": "In a residential district in California, when is it legal to make a U-turn across the street?",
+      "options": [
+        "At any time, even in front of a fire station driveway",
+        "Never; U-turns are completely prohibited on all residential streets",
+        "Whenever no vehicle is approaching within 200 feet, or when a traffic sign, light, or stop sign protects you from approaching vehicles"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a residential district, you may make a U-turn if no vehicles are approaching you within 200 feet, or at an intersection where traffic signs or signals protect you from close approaching vehicles.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Navigating the Roads - U-Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-turns-04",
+      "topic": "turns-passing",
+      "prompt": "When waiting in an intersection to make a left turn while oncoming traffic passes, how should you keep your front wheels pointed?",
+      "options": [
+        "Pointed straight ahead until it is safe to start your turn",
+        "Turned sharply to the left so you can turn faster",
+        "Turned slightly to the right toward the crosswalk"
+      ],
+      "correctIndex": 0,
+      "explanation": "Keep your front wheels pointed straight ahead while waiting to turn left. If another vehicle hits you from behind while your wheels are turned left, your car would be pushed directly into oncoming traffic.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Navigating the Roads - Left Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-turns-05",
+      "topic": "turns-passing",
+      "prompt": "When passing another vehicle on a two-lane road, you must NOT drive off the paved road onto the shoulder:",
+      "options": [
+        "Unless the vehicle ahead is signaling a left turn",
+        "Under any circumstances; passing on the unpaved shoulder is illegal",
+        "Except when traffic is moving below 35 mph"
+      ],
+      "correctIndex": 1,
+      "explanation": "In California, you may never drive off the paved or main-traveled portion of the road onto the shoulder to pass another vehicle.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-speed-01",
+      "topic": "speed-distance",
+      "prompt": "Unless otherwise posted, what is the maximum speed limit in a California school zone when children are outside or crossing the street?",
+      "options": [
+        "45 mph",
+        "35 mph",
+        "25 mph"
+      ],
+      "correctIndex": 2,
+      "explanation": "Within 500 to 1,000 feet of a school while children are outside or crossing the street, the speed limit is 25 mph unless a lower limit (such as 15 mph) is posted.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Speed Limits - Around Children",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-speed-02",
+      "topic": "speed-distance",
+      "prompt": "What is the maximum speed limit in any alley, or at a blind intersection/railroad crossing where you cannot see for 100 feet in both directions?",
+      "options": [
+        "15 mph",
+        "25 mph",
+        "30 mph"
+      ],
+      "correctIndex": 0,
+      "explanation": "In California, the speed limit is 15 mph in any alley, within 100 feet of a blind railroad crossing without gates/signals, and at blind intersections where your view is obstructed during the last 100 feet.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Reduced Speeds (15 mph)",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-speed-03",
+      "topic": "speed-distance",
+      "prompt": "California's 'Basic Speed Law' states that:",
+      "options": [
+        "You must always drive at the exact posted speed limit even in heavy rain or fog",
+        "You may never drive faster than is safe for current road, weather, and traffic conditions, regardless of the posted limit",
+        "You may exceed the posted limit by 10 mph when keeping up with freeway traffic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under California's Basic Speed Law, you must never drive faster than is safe for current conditions. If it is foggy, raining, or congested, you can be cited for driving too fast even if you are below the posted limit.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Speed Limits - Basic Speed Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-speed-04",
+      "topic": "speed-distance",
+      "prompt": "On a two-lane undivided highway where passing is unsafe, if 5 or more vehicles are lined up behind your slow-moving vehicle, what must you do?",
+      "options": [
+        "Drive on the right shoulder while maintaining speed",
+        "Turn on your hazard lights and continue at your current speed",
+        "Pull over at the next designated turnout or safe area to let the vehicles pass"
+      ],
+      "correctIndex": 2,
+      "explanation": "On a two-lane road where passing is unsafe, if 5 or more vehicles are following closely behind you, California law requires you to pull into a designated turnout area to let them pass.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Turnout Areas",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-speed-05",
+      "topic": "speed-distance",
+      "prompt": "Under normal daytime weather and dry pavement conditions, what is the minimum safe following distance behind the vehicle ahead?",
+      "options": [
+        "At least a 3-second gap",
+        "One car length at any speed",
+        "A 1-second gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maintain at least a 3-second following cushion under ideal conditions, and increase it to 4 seconds or more in rain, fog, night driving, or when following motorcycles and large trucks.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Safe Driving - Tailgating (Following Too Closely)",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-parking-01",
+      "topic": "parking",
+      "prompt": "When parking your vehicle headed uphill next to a curb, which way should you turn your front wheels?",
+      "options": [
+        "Toward the curb (to the right)",
+        "Away from the curb (to the left) so the back of the front tire touches the curb",
+        "Straight ahead parallel to the curb"
+      ],
+      "correctIndex": 1,
+      "explanation": "When parking uphill next to a curb, turn your front wheels away from the curb (to the left). If your brakes fail, the vehicle will roll back slightly and the curb will stop the front tire.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Parking on a Hill",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-parking-02",
+      "topic": "parking",
+      "prompt": "When parking your vehicle headed downhill (with or without a curb), which way must you turn your front wheels?",
+      "options": [
+        "Keep them straight ahead",
+        "Away from the curb toward the center of the street",
+        "Toward the curb or right edge of the road"
+      ],
+      "correctIndex": 2,
+      "explanation": "When parking downhill, always turn your front wheels into the curb or toward the right shoulder so the vehicle rolls away from traffic if it moves.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Parking on a Hill",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-parking-03",
+      "topic": "parking",
+      "prompt": "In California, what does a blue-painted curb indicate?",
+      "options": [
+        "Parking is permitted only for vehicles displaying a valid disabled person placard or license plate",
+        "Short-term passenger loading and mail drop-off for up to 5 minutes",
+        "Limited-time parking for any vehicle during business hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blue curbs are reserved exclusively for disabled persons or disabled veterans whose vehicles display a valid Disabled Person (DP) placard or license plate.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Colored Curbs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-parking-04",
+      "topic": "parking",
+      "prompt": "Unless a sign or painted curb states otherwise, you must never park within how many feet of a fire hydrant in California?",
+      "options": [
+        "5 feet",
+        "15 feet",
+        "50 feet"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is illegal in California to park or leave a vehicle unattended within 15 feet of a fire hydrant or fire station driveway.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Illegal Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-safety-01",
+      "topic": "safe-driving",
+      "prompt": "Before changing lanes on a freeway, in addition to signaling and checking your rear and side mirrors, you must always:",
+      "options": [
+        "Brake to 15 mph below the speed of traffic",
+        "Sound your horn to warn vehicles behind you",
+        "Turn your head and glance over your shoulder to check your blind spot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Side and rearview mirrors have blind spots. Always turn your head to look over your shoulder in the direction you plan to move before changing lanes.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Lane Control - Changing Lanes",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-safety-02",
+      "topic": "safe-driving",
+      "prompt": "What is the rule regarding handheld wireless cell phone use for drivers under the age of 18 in California?",
+      "options": [
+        "Drivers under 18 may NOT use a cell phone for any reason, even in hands-free mode, except to call emergency services",
+        "Drivers under 18 may use a cell phone as long as it is connected to Bluetooth",
+        "Drivers under 18 may text only while stopped at a red traffic light"
+      ],
+      "correctIndex": 0,
+      "explanation": "California law prohibits minors (under 18) from using any cell phone or electronic wireless communications device while driving, even if it is hands-free, except for emergency calls to police, fire, or medical providers.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Safe Driving - Cell Phones and Texting",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-safety-03",
+      "topic": "safe-driving",
+      "prompt": "Under California law, a child under 2 years of age must ride in a:",
+      "options": [
+        "Front-facing booster seat in the front passenger seat",
+        "Rear-facing child passenger safety seat, unless the child weighs 40+ pounds or is 40+ inches tall",
+        "Standard adult seat belt in the back seat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Children under age 2 must be secured in a rear-facing child safety seat unless the child weighs 40 pounds or more, or is 40 inches or taller. Children under 8 must be secured in a car seat or booster in the back seat.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 4: Seat Belts and Child Restraint Systems",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-safety-04",
+      "topic": "safe-driving",
+      "prompt": "If you are involved in a traffic collision in California, when are you legally required to file an SR-1 report with the DMV within 10 days?",
+      "options": [
+        "Only when your vehicle is towed from a freeway",
+        "Only if a police officer did not respond to the scene",
+        "Whenever anyone is injured (no matter how minor) or killed, OR property damage exceeds $1,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "You (or your insurance agent/attorney) must file a Report of Traffic Accident Occurring in California (SR-1) with the DMV within 10 days if there is any injury, death, or property damage over $1,000—even if police took a report.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Collisions Are Not Accidents",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-alcohol-01",
+      "topic": "alcohol-drugs",
+      "prompt": "In California, it is illegal for a person 21 years of age or older to drive a standard passenger vehicle with a Blood Alcohol Concentration (BAC) of:",
+      "options": [
+        "0.08% or higher",
+        "0.10% or higher",
+        "0.05% or higher"
+      ],
+      "correctIndex": 0,
+      "explanation": "For drivers 21 and older operating a non-commercial passenger vehicle, a BAC of 0.08% or higher is illegal per se. You can also be arrested below 0.08% if your driving is impaired.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 9: Alcohol and Drugs - BAC Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-alcohol-02",
+      "topic": "alcohol-drugs",
+      "prompt": "Under California's Zero Tolerance law, what is the illegal BAC limit for a driver who is under 21 years of age?",
+      "options": [
+        "0.04% or higher",
+        "0.01% or higher",
+        "0.08% or higher"
+      ],
+      "correctIndex": 1,
+      "explanation": "For drivers under 21, it is illegal to drive with a BAC of 0.01% or higher as measured by a preliminary alcohol screening (PAS) or chemical test.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 9: Alcohol and Drugs - Under 21 Zero Tolerance",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-alcohol-03",
+      "topic": "alcohol-drugs",
+      "prompt": "What happens under California's Implied Consent law if you refuse to take a breath or blood test after being lawfully arrested for DUI?",
+      "options": [
+        "Nothing happens unless a judge orders a warrant",
+        "You will only receive a warning and a $100 fine",
+        "Your driving privilege will be automatically suspended for at least 1 year, even if you are not convicted of DUI in court"
+      ],
+      "correctIndex": 2,
+      "explanation": "When you drive in California, you consent to chemical testing of your breath or blood if lawfully arrested for DUI. Refusing the test results in mandatory license suspension (1 year for a first refusal) and enhanced penalties.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 9: Alcohol and Drugs - Implied Consent",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-alcohol-04",
+      "topic": "alcohol-drugs",
+      "prompt": "Where may an opened container of an alcoholic beverage or cannabis product be legally kept in a private passenger vehicle?",
+      "options": [
+        "Locked in the trunk, or in a storage area where passengers do not sit",
+        "In the glove compartment within reach of the front passenger",
+        "Under the driver's seat as long as it is recapped"
+      ],
+      "correctIndex": 0,
+      "explanation": "All open containers of alcohol or cannabis in a vehicle must be sealed or stored in the trunk (or a rear area where passengers do not sit). Storing an open container in the glove compartment is illegal.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 9: Alcohol and Cannabis in Vehicles",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-conditions-01",
+      "topic": "special-conditions",
+      "prompt": "In California, if weather conditions require you to use your windshield wipers continuously (such as rain, snow, or mist), you must also:",
+      "options": [
+        "Turn on your four-way emergency hazard flashers while driving",
+        "Turn on your low-beam headlights",
+        "Switch on your bright high-beam headlights"
+      ],
+      "correctIndex": 1,
+      "explanation": "California law requires you to turn on your low-beam headlights whenever weather conditions require the continuous use of your windshield wipers, or when visibility is less than 1,000 feet.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Driving in Rain and Fog",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-conditions-02",
+      "topic": "special-conditions",
+      "prompt": "When driving in heavy fog, why should you use your low-beam headlights rather than your high-beam headlights?",
+      "options": [
+        "High beams are only legal on divided interstate highways",
+        "High beams drain the vehicle battery too quickly in cold weather",
+        "High beams reflect off the water droplets in the fog and create glare back into your eyes"
+      ],
+      "correctIndex": 2,
+      "explanation": "In fog, heavy rain, or snow, light from high-beam headlights reflects directly back off moisture particles, creating a blinding glare and reducing your visibility. Always use low beams.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Driving in Fog",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-conditions-03",
+      "topic": "special-conditions",
+      "prompt": "When driving at night with your high-beam headlights on, within what distance must you dim your lights to low beams for an oncoming vehicle?",
+      "options": [
+        "Within 500 feet of an oncoming vehicle (and within 300 feet when following behind another vehicle)",
+        "Within 100 feet of an oncoming vehicle",
+        "Only after the oncoming driver flashes their lights at you"
+      ],
+      "correctIndex": 0,
+      "explanation": "To avoid blinding other drivers at night, you must dim your high beams to low beams within 500 feet of an oncoming vehicle and within 300 feet of a vehicle you are following.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 5: Using Headlights at Night",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-sharing-01",
+      "topic": "sharing-the-road",
+      "prompt": "When a school bus is stopped ahead on an undivided two-lane road with its red lights flashing and stop arm extended, what must you do?",
+      "options": [
+        "Slow down to 15 mph and pass carefully if no children are in your lane",
+        "Stop completely from either direction and remain stopped until the red lights stop flashing",
+        "Stop only if you are traveling in the same direction behind the bus"
+      ],
+      "correctIndex": 1,
+      "explanation": "When a school bus flashes red lights on an undivided road, traffic in BOTH directions must come to a full stop and wait until the flashing red lights are turned off.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Around Children and School Buses",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-sharing-02",
+      "topic": "sharing-the-road",
+      "prompt": "Under California's Three Feet for Safety Act, when passing a bicyclist traveling in the same direction, you must:",
+      "options": [
+        "Speed up to pass the bicyclist before the next intersection",
+        "Honk your horn continuously while passing within 1 foot",
+        "Change lanes if possible or leave at least 3 feet of clearance between your vehicle and the bicyclist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Drivers overtaking a bicyclist must move into an adjacent lane if available, or provide at least 3 feet of space between any part of the vehicle and the bicycle. If 3 feet isn't possible, slow down and pass only when safe.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Sharing the Road with Bicyclists",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-sharing-03",
+      "topic": "sharing-the-road",
+      "prompt": "Under California's 'Move Over, Slow Down' law, when approaching a stationary emergency vehicle, tow truck, or Caltrans vehicle with flashing amber or emergency lights on a freeway, you must:",
+      "options": [
+        "Safely move over into a lane not immediately adjacent to the stopped vehicle, or slow down if changing lanes is unsafe",
+        "Come to a complete stop in your freeway lane until waved through",
+        "Maintain your speed and stay close to the right shoulder"
+      ],
+      "correctIndex": 0,
+      "explanation": "When approaching a stationary emergency vehicle, tow truck, or highway maintenance vehicle displaying flashing lights on a multi-lane highway, move over one lane away if safe to do so; otherwise, slow down to a safe and reasonable speed.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Vehicles with Hazard or Emergency Lights",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-sharing-04",
+      "topic": "sharing-the-road",
+      "prompt": "Large commercial trucks have large blind spots called 'No-Zones.' What is a good rule of thumb when driving behind a large truck?",
+      "options": [
+        "Stay within 1 car length of the trailer to reduce wind resistance",
+        "If you cannot see the truck driver's side mirrors, the truck driver cannot see your vehicle",
+        "Pass the truck slowly on the right side near intersections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large trucks have deep blind spots directly in front, behind, and along both sides. If you cannot see the driver's side mirrors when following a truck, there is no way for the driver to see you.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Sharing the Road with Large Trucks",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ca-lesson-road-signs",
+      "topic": "road-signs",
+      "title": "California Road Sign Shapes & Colors",
+      "body": "• Octagon (8-sided Red): STOP. Always come to a full stop before the white limit line or crosswalk.\n• Downward Triangle (Red/White): YIELD. Slow down, be ready to stop, and let cross traffic/pedestrians pass.\n• White Rectangle/Square: Regulatory rules you must obey (Speed Limit, Do Not Pass, No U-Turn).\n• Yellow Diamond: Warning of road hazards or changing road conditions ahead.\n• Orange Diamond/Rectangle: Construction and maintenance work zones (fines are doubled in work zones).\n• Fluorescent Yellow-Green Pentagon (5-sided): School zone or school crossing ahead.\n• Round Yellow with X and RR: Railroad crossing ahead.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-signals-markings",
+      "topic": "signals-markings",
+      "title": "Traffic Signals & California Lane Markings",
+      "body": "• Solid Red Light: Stop before the limit line. You may turn right after a full stop unless a 'No Turn on Red' sign is posted.\n• Red Arrow: STOP. Never turn against a red arrow in California.\n• Flashing Red Light: Treat as a STOP sign. Dark/Blacked-Out Signals: Treat as an all-way stop.\n• Yellow Lines: Separate traffic moving in opposite directions. Two sets of solid double yellow lines (2+ feet apart) represent a solid wall—never cross them.\n• White Lines: Separate lanes moving in the same direction.\n• Center Two-Way Left-Turn Lane: Use only to turn left or merge; drive in it for no more than 200 feet.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Sections 6 & 7: Lane Markings and Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-right-of-way",
+      "topic": "right-of-way",
+      "title": "Right-of-Way Rules & Intersections",
+      "body": "• First to Arrive: At a 4-way stop, the first vehicle to reach the intersection goes first.\n• Simultaneous Arrival: Yield to the vehicle on your RIGHT.\n• Left Turns: Yield to all oncoming vehicles until it is completely safe to turn.\n• T-Intersections: Drivers on the terminating road must yield to traffic on the continuing through street.\n• Mountain Roads: When two cars meet on a steep narrow grade, the downhill vehicle must yield and back up for the uphill vehicle.\n• Pedestrians: Always yield to pedestrians in marked or unmarked crosswalks, and stop within 5 feet for blind pedestrians with a white cane or guide dog.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Right-of-Way Rules",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-turns-passing",
+      "topic": "turns-passing",
+      "title": "Turns, Bike Lanes & Safe Passing",
+      "body": "• Signaling: Signal at least 100 feet before turning, and at least 5 seconds before changing lanes on a freeway.\n• Right Turns with Bike Lanes: Check your blind spot and merge into the bike lane within 200 feet before making the turn.\n• Left Turns: Keep your front wheels pointed straight ahead while waiting to turn left.\n• U-Turns: Legal in residential districts when no vehicle is approaching within 200 feet; illegal in front of fire stations, on curves/hills without 200 feet visibility, or where prohibited by sign.\n• Passing: Never drive off the paved road onto the shoulder to pass.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Turns and Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-speed-distance",
+      "topic": "speed-distance",
+      "title": "California Speed Limits & Following Distance",
+      "body": "• Basic Speed Law: Never drive faster than is safe for current conditions.\n• 65 mph: Standard maximum speed limit on most California multi-lane freeways.\n• 55 mph: Two-lane undivided highways and vehicles towing trailers.\n• 25 mph: Residential/business districts, school zones (when children are present), and senior citizen zones.\n• 15 mph: Alleys, blind intersections (less than 100 ft visibility), and within 100 ft of blind railroad crossings.\n• Turnouts: Slow vehicles with 5 or more cars behind them on a 2-lane road must use turnouts to let traffic pass.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 7: Speed Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-parking",
+      "topic": "parking",
+      "title": "Hill Parking & California Curb Colors",
+      "body": "• Downhill (with or without curb): Turn front wheels TOWARD the curb/right edge.\n• Uphill WITH a curb: Turn front wheels AWAY from the curb (to the left).\n• Uphill WITHOUT a curb: Turn front wheels TOWARD the right shoulder.\n• Colored Curbs:\n  - White: Stop only long enough to pick up/drop off passengers.\n  - Green: Limited time parking (check posted time on sign or curb).\n  - Yellow: Passenger/freight loading only (stay with vehicle).\n  - Red: No stopping, standing, or parking.\n  - Blue: Disabled Person (DP) placard or plate only.\n• Fire Hydrants: Never park within 15 feet of a fire hydrant.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-safe-driving",
+      "topic": "safe-driving",
+      "title": "Seat Belts, Child Restraints, Cell Phones & SR-1",
+      "body": "• Blind Spots: Always look over your shoulder before changing lanes or merging.\n• Cell Phones: Adults (18+) may only use hands-free devices. Minors (under 18) may NOT use any cell phone—even hands-free—except for emergency calls.\n• Child Safety Seats: Under age 2 must ride rear-facing (unless 40+ lbs or 40+ inches). Under age 8 must ride in a safety/booster seat in the rear seat.\n• SR-1 Accident Report: Must be filed with the DMV within 10 days of any collision involving injury, death, or property damage over $1,000.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Sections 4 & 8: Safe Driving and Collisions",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-alcohol-drugs",
+      "topic": "alcohol-drugs",
+      "title": "BAC Limits, Zero Tolerance & Implied Consent",
+      "body": "• 0.08% BAC: Illegal limit for drivers 21 and older in a standard passenger vehicle.\n• 0.04% BAC: Illegal limit for commercial vehicle drivers, rideshare/passenger-for-hire drivers, and individuals on DUI probation.\n• 0.01% BAC (Zero Tolerance): Illegal limit for drivers under 21.\n• Implied Consent: Refusing a chemical breath/blood test after a lawful DUI arrest triggers an automatic 1-year license suspension on a first offense.\n• Open Containers: Alcohol and cannabis products must be sealed or locked in the trunk.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 9: Alcohol and Drugs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-special-conditions",
+      "topic": "special-conditions",
+      "title": "Night Driving, Fog, Rain & Hydroplaning",
+      "body": "• Headlights & Wipers: Turn on low-beam headlights whenever windshield wipers are in continuous use due to rain, mist, or snow, and from 30 minutes after sunset to 30 minutes before sunrise.\n• Dimming High Beams: Dim high beams within 500 feet of an oncoming vehicle and within 300 feet when following another vehicle.\n• Fog: Always use low beams; high beams reflect off fog and cause glare.\n• Hydroplaning: If tires lose traction on water, ease your foot off the accelerator and steer straight—do not brake suddenly.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 8: Special Driving Conditions",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ca-lesson-sharing-the-road",
+      "topic": "sharing-the-road",
+      "title": "School Buses, Bicyclists, Trucks & Move Over Law",
+      "body": "• School Buses: When red lights flash on an undivided road, traffic in both directions must stop completely until the flashing stops.\n• Bicyclists: Give at least 3 feet of clearance when passing.\n• Move Over Law: Change lanes away from or slow down for any stationary emergency vehicle, tow truck, or Caltrans vehicle with flashing lights.\n• Large Trucks (No-Zones): Never linger alongside a truck or follow so closely that you cannot see its side mirrors.",
+      "source": {
+        "title": "California Driver's Handbook",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "section": "Section 6: Sharing the Road",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "id": "release-ny-general-first-2026-v1",
+  "version": "1.0.0",
+  "state": "NY",
+  "vehicle": "car",
+  "profile": "general-first",
+  "language": "en",
+  "publishedAt": "2026-11-10T12:00:00.000Z",
+  "rule": {
+    "id": "rule-ny-general-first-v1",
+    "version": "1.0.0",
+    "state": "NY",
+    "vehicle": "car",
+    "profile": "general-first",
+    "questionCount": 20,
+    "minimumCorrect": 14,
+    "durationSeconds": 1800,
+    "sections": [
+      {
+        "topic": "road-signs",
+        "questionCount": 4,
+        "minimumCorrect": 2
+      }
+    ],
+    "verifiedAt": "2026-11-10",
+    "sourceUrl": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests"
+  },
+  "questions": [
+    {
+      "id": "ny-signs-01",
+      "topic": "road-signs",
+      "prompt": "What must you do when you approach this red eight-sided (octagonal) sign?",
+      "options": [
+        "Come to a full stop at the stop line or before entering the crosswalk",
+        "Slow down and yield only if cross traffic is present",
+        "Stop only when a police officer is directing traffic",
+        "Proceed with caution at 10 mph or less"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the New York State Driver's Manual, an octagonal red STOP sign requires a complete stop at the marked stop line, before the crosswalk, or before entering the intersection.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MUTCD_R1-1.svg/400px-MUTCD_R1-1.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-02",
+      "topic": "road-signs",
+      "prompt": "What does this downward-pointing red and white triangle sign require you to do?",
+      "options": [
+        "Maintain your speed and merge ahead of other vehicles",
+        "Slow down, be prepared to stop, and yield the right-of-way to approaching traffic and pedestrians",
+        "Come to a mandatory 5-second stop regardless of traffic",
+        "Turn right only at the upcoming intersection"
+      ],
+      "correctIndex": 1,
+      "explanation": "A YIELD sign requires you to slow down as you approach the intersection and stop if necessary to give the right-of-way to pedestrians and cross traffic.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/MUTCD_R1-2.svg/400px-MUTCD_R1-2.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-03",
+      "topic": "road-signs",
+      "prompt": "What does this square sign with a red circle and white horizontal bar ('DO NOT ENTER') mean?",
+      "options": [
+        "Railroad crossing gates are lowered ahead",
+        "Road closed ahead for local deliveries only",
+        "You must not enter this roadway or ramp because traffic is traveling toward you",
+        "Parking is prohibited on both sides of the street"
+      ],
+      "correctIndex": 2,
+      "explanation": "The DO NOT ENTER sign is placed at one-way streets and exit ramps to prevent drivers from entering against oncoming traffic.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/MUTCD_R5-1.svg/400px-MUTCD_R5-1.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-04",
+      "topic": "road-signs",
+      "prompt": "What does this regulatory sign with a red circle and slash over a left-turn arrow indicate?",
+      "options": [
+        "Sharp left curve ahead",
+        "Left lane must turn left",
+        "One-way traffic moving to the left",
+        "Left turns are illegal at this intersection"
+      ],
+      "correctIndex": 3,
+      "explanation": "A red circle with a diagonal slash over a black arrow means the movement shown is prohibited. You may not turn left here.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/MUTCD_R3-2.svg/400px-MUTCD_R3-2.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-05",
+      "topic": "road-signs",
+      "prompt": "What does this sign with a red circle and diagonal slash over a U-shaped arrow mean?",
+      "options": [
+        "No U-turn is permitted at this intersection or median opening",
+        "Sharp U-shaped curve ahead; reduce speed",
+        "Roundabout ahead; yield to circulating traffic",
+        "Truck turnaround area ahead"
+      ],
+      "correctIndex": 0,
+      "explanation": "This sign prohibits making a U-turn to reverse your direction of travel.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/MUTCD_R3-4.svg/400px-MUTCD_R3-4.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-06",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond-shaped sign showing a vehicle with curved skid marks warn you about?",
+      "options": [
+        "Winding road ahead for the next 2 miles",
+        "The pavement ahead is slippery when wet; slow down and avoid sudden maneuvers",
+        "Rough or unpaved road surface ahead",
+        "Drunk driving enforcement checkpoint ahead"
+      ],
+      "correctIndex": 1,
+      "explanation": "This warning sign alerts drivers that the road surface becomes especially slippery in wet weather. Reduce speed and increase following distance.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MUTCD_W8-5.svg/400px-MUTCD_W8-5.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-07",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond sign showing two lines joining into one arrow indicate?",
+      "options": [
+        "Two-way traffic begins ahead",
+        "Divided highway begins ahead",
+        "Two lanes of traffic traveling in the same direction are merging ahead",
+        "Exit ramp opens on the right"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Merge warning sign warns drivers that traffic from another roadway or lane is merging into your direction of travel. Be alert and adjust speed to allow a safe merge.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/MUTCD_W4-1.svg/400px-MUTCD_W4-1.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-08",
+      "topic": "road-signs",
+      "prompt": "What does this round yellow sign with a black 'X' and 'RR' warn drivers about?",
+      "options": [
+        "Hospital emergency entrance ahead",
+        "An intersection of two rural county roads is ahead",
+        "Road closed ahead for bridge repairs",
+        "A railroad crossing is ahead; slow down, look, listen, and be ready to stop"
+      ],
+      "correctIndex": 3,
+      "explanation": "Circular yellow signs are used only for advance warning of railroad crossings. Slow down and be prepared to stop before the tracks if a train is approaching.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MUTCD_W10-1.svg/400px-MUTCD_W10-1.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-09",
+      "topic": "road-signs",
+      "prompt": "What does this five-sided (pentagon) sign with two walking figures indicate?",
+      "options": [
+        "School zone or school crossing ahead",
+        "Pedestrian hiking trail in a state park",
+        "Bus stop waiting area ahead",
+        "Playground equipment area closed to vehicles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Five-sided pentagon signs warn drivers they are entering a school zone or approaching a school crossing. Slow down and watch carefully for children.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/MUTCD_S1-1.svg/400px-MUTCD_S1-1.svg.png",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Warning Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signs-10",
+      "topic": "road-signs",
+      "prompt": "What is the meaning of a rectangular white sign with black lettering such as 'KEEP RIGHT' or 'SPEED LIMIT 55'?",
+      "options": [
+        "It is an optional advisory suggestion for inclement weather",
+        "It is a regulatory sign stating a legal requirement you must obey",
+        "It is a highway destination and mileage guide sign",
+        "It marks a motorist service area such as gas or lodging"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vertical white rectangles with black (and sometimes red) letters or symbols are regulatory signs that inform drivers of traffic laws and regulations that must be obeyed.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Regulatory Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signals-01",
+      "topic": "signals-markings",
+      "prompt": "In New York City (the five boroughs), when are you allowed to make a right turn on a steady red traffic light?",
+      "options": [
+        "Between midnight and 6:00 a.m. at all intersections",
+        "At any intersection after coming to a complete stop, unless a sign prohibits it",
+        "Only when a posted sign specifically permits turning on red at that intersection",
+        "Whenever you are turning from a one-way street onto another one-way street"
+      ],
+      "correctIndex": 2,
+      "explanation": "In New York City, turning on a steady red light is PROHIBITED at all times unless a posted sign specifically allows it. Outside NYC in New York State, right turn on red is permitted after a full stop unless a sign prohibits it.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signals-02",
+      "topic": "signals-markings",
+      "prompt": "What does a flashing red traffic signal light at an intersection require you to do?",
+      "options": [
+        "Wait at the limit line until the light turns solid green",
+        "Slow down and proceed through the intersection without stopping",
+        "Stop only if another vehicle is waiting on your right",
+        "Come to a complete stop, yield the right-of-way to cross traffic and pedestrians, and go when safe"
+      ],
+      "correctIndex": 3,
+      "explanation": "A flashing red light means the exact same thing as a STOP sign: stop completely, yield to approaching traffic and pedestrians, and proceed when the way is clear.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signals-03",
+      "topic": "signals-markings",
+      "prompt": "What does one solid yellow line next to a broken yellow line in the center of a two-way road indicate?",
+      "options": [
+        "Drivers on the side with the broken yellow line may pass if safe; drivers on the side with the solid line may not pass",
+        "Passing is permitted from both directions at any time",
+        "Passing is prohibited from both directions at all times",
+        "Both lanes are traveling in the same direction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Where a solid yellow line is paired with a broken yellow line, only traffic immediately next to the broken line may cross the center line to pass when oncoming traffic is clear.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Pavement Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signals-04",
+      "topic": "signals-markings",
+      "prompt": "What do single broken white lines separating lanes on a highway indicate?",
+      "options": [
+        "Traffic in adjacent lanes moves in opposite directions",
+        "Traffic in both lanes moves in the same direction, and you may change lanes when it is safe",
+        "You must stay in your lane and never cross the line",
+        "The right lane is reserved for buses and bicycles only"
+      ],
+      "correctIndex": 1,
+      "explanation": "White lane lines separate traffic moving in the same direction. A broken white line allows you to change lanes when it is safe to do so.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Pavement Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-signals-05",
+      "topic": "signals-markings",
+      "prompt": "When a traffic officer's directions at an intersection conflict with a traffic light or STOP sign, whose directions must you obey?",
+      "options": [
+        "Come to a stop and wait until the light matches the officer's signal",
+        "Obey the electronic traffic light instead of the officer",
+        "Always obey the traffic officer's directions",
+        "Follow whichever rule gives you the right-of-way"
+      ],
+      "correctIndex": 2,
+      "explanation": "Directions given by a police officer, traffic control person, or construction flagger always take priority over signs, signals, and pavement markings.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control - Traffic Officers",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-01",
+      "topic": "right-of-way",
+      "prompt": "When two vehicles approach an intersection not controlled by signs or signals at the same time, who has the right-of-way?",
+      "options": [
+        "The driver in the larger vehicle",
+        "The driver on the left",
+        "The driver traveling at the higher speed",
+        "The driver on the right"
+      ],
+      "correctIndex": 3,
+      "explanation": "At an intersection where two vehicles arrive at the same time, the driver on the left must yield the right-of-way to the driver on the right.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Intersections and Turns - Right-of-Way",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-02",
+      "topic": "right-of-way",
+      "prompt": "A driver making a left turn at an intersection without a green arrow must yield the right-of-way to:",
+      "options": [
+        "All oncoming traffic going straight or turning right, as well as pedestrians in the crosswalk",
+        "Only large commercial trucks approaching from the opposite direction",
+        "Vehicles waiting behind them to turn left",
+        "No one if they entered the intersection first"
+      ],
+      "correctIndex": 0,
+      "explanation": "A driver turning left must always yield the right-of-way to oncoming traffic proceeding straight or turning right, and to pedestrians crossing the street.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Intersections and Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-03",
+      "topic": "right-of-way",
+      "prompt": "When entering a public highway or street from a private driveway, alley, or parking lot, you must:",
+      "options": [
+        "Pull out quickly before approaching vehicles reach your driveway",
+        "Yield the right-of-way to all pedestrians on the sidewalk and all vehicles on the roadway",
+        "Sound your horn to claim the right-of-way",
+        "Yield only to vehicles approaching from your left"
+      ],
+      "correctIndex": 1,
+      "explanation": "Drivers emerging from a driveway, alley, or parking lot must stop before crossing the sidewalk area and yield to all pedestrians and approaching roadway traffic.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Intersections and Turns - Right-of-Way",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-04",
+      "topic": "right-of-way",
+      "prompt": "As you approach a roundabout in New York State, who has the right-of-way?",
+      "options": [
+        "Vehicles traveling in the left lane of the approach",
+        "Vehicles entering the roundabout from the right-hand approach",
+        "Pedestrians in the crosswalks and vehicles/bicyclists already inside the roundabout",
+        "Whichever vehicle is larger"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before entering a roundabout, yield to pedestrians in the crosswalk and to all traffic and cyclists already circulating counterclockwise inside the circle.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Roundabouts",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-05",
+      "topic": "right-of-way",
+      "prompt": "When you hear a siren or see flashing red lights on an approaching emergency vehicle, what must you do?",
+      "options": [
+        "Move into the center lane and slow to 20 mph",
+        "Stop immediately inside the intersection where you are",
+        "Speed up to reach the next exit before the emergency vehicle catches up",
+        "Immediately pull over to the right curb or edge of the road, clear of any intersection, and stop until it passes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Yield the right-of-way immediately by pulling as close as possible to the right edge of the road (or to either edge on a one-way street), clear of intersections, and stopping until the emergency vehicle has passed.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Emergency Vehicles",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-row-06",
+      "topic": "right-of-way",
+      "prompt": "You want to turn right at an intersection where the light is green, but bumper-to-bumper traffic on the cross street leaves no room for your car. What should you do?",
+      "options": [
+        "Wait behind the crosswalk/intersection until there is enough space on the other street for your vehicle",
+        "Pull halfway into the intersection so cross traffic cannot move ahead of you",
+        "Stop on the pedestrian crosswalk until traffic moves",
+        "Honk continuously to force the cars ahead to move"
+      ],
+      "correctIndex": 0,
+      "explanation": "Never enter an intersection—even when turning on a green light—if traffic is backed up and would trap your vehicle inside the intersection or crosswalk ('Don't Block the Box').",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Intersections - Gridlock",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-turns-01",
+      "topic": "turns-passing",
+      "prompt": "Under New York State law, you must turn on your directional signal at least how many feet before making a turn?",
+      "options": [
+        "At least 50 feet before turning",
+        "At least 100 feet before turning",
+        "At least 20 feet before turning",
+        "Only when another vehicle is directly behind you"
+      ],
+      "correctIndex": 1,
+      "explanation": "New York State law requires you to signal continuously for at least the last 100 feet before making any turn or changing lanes.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Signaling for Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-turns-02",
+      "topic": "turns-passing",
+      "prompt": "When turning left from a one-way street onto another one-way street, how should you position your vehicle?",
+      "options": [
+        "Approach from the right curb lane and swing wide to the left",
+        "Approach from the center lane and turn into the right lane",
+        "Approach the turn in the far-left lane and turn into the far-left lane of the cross street",
+        "Turn from any lane as long as your hazard lights are on"
+      ],
+      "correctIndex": 2,
+      "explanation": "To turn left from a one-way street onto another one-way street, begin the turn as close as possible to the left curb and enter the left lane of the new street.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: How to Make Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-turns-03",
+      "topic": "turns-passing",
+      "prompt": "Where are U-turns strictly prohibited by law in New York State?",
+      "options": [
+        "In residential neighborhoods during daylight hours",
+        "On rural two-lane roads with broken yellow lines",
+        "At suburban intersections without traffic lights",
+        "On any limited-access expressway, in a school zone, in New York City business districts, or near a curve/hill where visibility is less than 500 feet"
+      ],
+      "correctIndex": 3,
+      "explanation": "In New York State, U-turns are illegal on limited-access expressways, in school zones, in NYC business districts, and on curves or hills where other drivers cannot see your car from 500 feet away in either direction.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: U-Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-turns-04",
+      "topic": "turns-passing",
+      "prompt": "After passing another vehicle on the left on a two-lane road, when is it safe to return to the right lane?",
+      "options": [
+        "When you can see the entire front bumper and headlights of the passed vehicle in your inside rearview mirror",
+        "Immediately after your rear bumper clears their front door",
+        "As soon as the driver behind you honks",
+        "Within 10 feet of the passed vehicle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before moving back into the right lane after passing, signal right and wait until you can see the front bumper/headlights of the vehicle you passed in your rearview mirror.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 6: Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-turns-05",
+      "topic": "turns-passing",
+      "prompt": "When another vehicle is overtaking and passing you on your left, what does New York law require you to do?",
+      "options": [
+        "Speed up so the other driver has to pull back behind you",
+        "Stay in your lane and do not increase your speed until the passing vehicle has safely cleared you",
+        "Move onto the unpaved right shoulder at full speed",
+        "Turn on your high-beam headlights"
+      ],
+      "correctIndex": 1,
+      "explanation": "When being passed on the left, you must keep to the right and never increase your speed; if necessary, slow down slightly to let the passing driver return safely to the lane.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 6: Being Passed",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-speed-01",
+      "topic": "speed-distance",
+      "prompt": "If no speed limit signs are posted on an open New York State highway outside of cities/villages, what is the statewide maximum speed limit?",
+      "options": [
+        "70 mph",
+        "65 mph",
+        "55 mph",
+        "45 mph"
+      ],
+      "correctIndex": 2,
+      "explanation": "In New York State, if no speed limit is posted, the maximum speed limit is 55 mph on open roads (65 mph is allowed only on specific interstate segments where 65 mph signs are posted).",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Defensive Driving - Speed",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-speed-02",
+      "topic": "speed-distance",
+      "prompt": "In New York City, unless a different speed limit is posted, what is the default citywide speed limit?",
+      "options": [
+        "50 mph",
+        "35 mph",
+        "40 mph",
+        "25 mph (or lower where 20 mph zones are posted)"
+      ],
+      "correctIndex": 3,
+      "explanation": "New York City has a default unposted speed limit of 25 mph (with many neighborhoods and streets posted at 20 mph under Sammy's Law). Always watch for posted city speed limit signs.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Speed Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-speed-03",
+      "topic": "speed-distance",
+      "prompt": "How does the New York State Driver's Manual recommend measuring a safe following distance behind the vehicle ahead?",
+      "options": [
+        "Use the 'two-second rule' under ideal conditions, and increase it in bad weather or heavy traffic",
+        "Stay exactly two car lengths behind at 60 mph",
+        "Keep a half-second gap on expressways",
+        "Drive close enough to read the small print on the license plate ahead"
+      ],
+      "correctIndex": 0,
+      "explanation": "The NY Driver's Manual teaches the 'two-second rule' as a minimum following distance under good conditions: pick a stationary point and count 'one-thousand-one, one-thousand-two' after the rear of the car ahead passes it. Increase to 3–4+ seconds in bad weather.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Space Cushion and Two-Second Rule",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-speed-04",
+      "topic": "speed-distance",
+      "prompt": "When entering a highway from an entrance/acceleration ramp, you should:",
+      "options": [
+        "Come to a complete stop at the beginning of the acceleration lane",
+        "Build up speed on the acceleration lane to match highway traffic, signal, check blind spots, and merge when safe",
+        "Drive onto the highway at 20 mph and force highway traffic to brake",
+        "Back up on the ramp if you entered the wrong highway"
+      ],
+      "correctIndex": 1,
+      "explanation": "Use the acceleration lane to bring your vehicle up to the speed of highway traffic, signal, check mirrors and blind spots, and yield to traffic already on the expressway.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Special Driving Conditions - Expressways",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-speed-05",
+      "topic": "speed-distance",
+      "prompt": "If you miss your exit on a New York State expressway or thruway, what must you do?",
+      "options": [
+        "Cross the grassy median to the opposite lanes",
+        "Pull onto the shoulder and back up slowly to the exit ramp",
+        "Continue driving to the next exit and turn around safely there",
+        "Stop in the right travel lane and wait to cut across"
+      ],
+      "correctIndex": 2,
+      "explanation": "It is strictly illegal and extremely dangerous to stop or back up on an expressway or ramp. If you miss your exit, go on to the next exit.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Expressways",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-parking-01",
+      "topic": "parking",
+      "prompt": "In New York State, you may never park, stand, or stop within how many feet of a fire hydrant (unless a licensed driver remains seated at the wheel ready to move the car immediately)?",
+      "options": [
+        "50 feet",
+        "5 feet",
+        "30 feet",
+        "15 feet"
+      ],
+      "correctIndex": 3,
+      "explanation": "Parking or standing within 15 feet of a fire hydrant is prohibited across New York State to ensure immediate access for firefighters.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 7: Parallel Parking and No-Parking Zones",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-parking-02",
+      "topic": "parking",
+      "prompt": "When parallel parking along a curb on a two-way street, your wheels must be within what maximum distance from the curb?",
+      "options": [
+        "No more than 12 inches (1 foot) from the curb",
+        "Up to 3 feet from the curb",
+        "Touching or on top of the sidewalk",
+        "At least 24 inches away from the curb"
+      ],
+      "correctIndex": 0,
+      "explanation": "A properly parallel-parked vehicle must be positioned parallel to the curb with its right wheels no more than 12 inches (1 foot) from the curb.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 7: Parallel Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-parking-03",
+      "topic": "parking",
+      "prompt": "What is the difference between a 'NO PARKING' sign and a 'NO STANDING' sign in New York State?",
+      "options": [
+        "Both signs mean you cannot stop even to obey a red traffic light",
+        "At 'NO PARKING' you may stop temporarily to load/unload passengers or merchandise; at 'NO STANDING' you may only stop briefly to pick up or drop off passengers",
+        "'NO STANDING' allows commercial delivery trucks to park for 2 hours",
+        "'NO PARKING' prohibits picking up passengers"
+      ],
+      "correctIndex": 1,
+      "explanation": "In NY: NO PARKING allows temporary stops to load/unload merchandise or passengers. NO STANDING allows stopping ONLY to expeditiously pick up or drop off passengers. NO STOPPING prohibits stopping for any reason except to obey a traffic sign, signal, or officer.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 7: Parking Regulations",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-parking-04",
+      "topic": "parking",
+      "prompt": "Before opening your driver-side door after parking on a street with traffic, what must you do?",
+      "options": [
+        "Honk your horn three times before opening the door",
+        "Fling the door open quickly so approaching cars see it",
+        "Check your mirrors and look back over your shoulder (such as using the 'Dutch Reach') to ensure no bicyclists or vehicles are approaching",
+        "Leave the door wide open while unloading groceries"
+      ],
+      "correctIndex": 2,
+      "explanation": "New York law prohibits opening a vehicle door on the side of moving traffic until it is reasonably safe to do so without interfering with approaching bicyclists or vehicles.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 7: Getting Out of Your Vehicle",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-safety-01",
+      "topic": "safe-driving",
+      "prompt": "Under New York State's seat belt law, which occupants in a passenger motor vehicle are required to wear seat belts?",
+      "options": [
+        "Seat belts are required only on interstate expressways",
+        "Only the driver and front-seat passenger",
+        "Only passengers under the age of 16",
+        "All front-seat AND all rear-seat passengers, regardless of age"
+      ],
+      "correctIndex": 3,
+      "explanation": "New York State law requires ALL drivers, front-seat passengers, and rear-seat passengers in motor vehicles to wear seat belts (or age-appropriate child restraints).",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Seat Belts and Child Safety Seats",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-safety-02",
+      "topic": "safe-driving",
+      "prompt": "In New York State, accumulating how many violation points on your driving record within an 18-month period may result in suspension of your driver license?",
+      "options": [
+        "11 or more points within 18 months",
+        "3 points within 18 months",
+        "25 points within 5 years",
+        "Points never result in license suspension"
+      ],
+      "correctIndex": 0,
+      "explanation": "If you accumulate 11 or more points on your New York driving record from violations committed within an 18-month period, your driver license may be suspended.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 2: Keeping Your License - Point System",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-safety-03",
+      "topic": "safe-driving",
+      "prompt": "If you are involved in a motor vehicle crash in New York State that causes property damage of more than $1,000 to any one person, you must file a Report of Motor Vehicle Accident (MV-104) with the DMV within:",
+      "options": [
+        "60 days of the crash",
+        "10 days of the crash",
+        "6 months of the crash",
+        "No report is required if you exchange insurance cards"
+      ],
+      "correctIndex": 1,
+      "explanation": "If a crash results in injury, death, or property damage exceeding $1,000 to any person, all involved drivers must file form MV-104 with the NY DMV within 10 days.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 3: If You Are in a Traffic Crash",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-safety-04",
+      "topic": "safe-driving",
+      "prompt": "To prevent highway hypnosis and driver fatigue on a long road trip, what is the best action if you begin feeling drowsy?",
+      "options": [
+        "Drink coffee while continuing to drive at 65 mph",
+        "Roll down the window and turn the radio volume all the way up",
+        "Pull off the road at a safe rest area or service plaza to sleep or switch drivers",
+        "Stare fixedly at the white line right in front of your hood"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fresh air, loud music, or caffeine provide only brief, false alertness. The only safe cure for drowsy driving is to pull off the highway at a safe rest stop and rest or change drivers.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Defensive Driving - Drowsy Driving",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-alcohol-01",
+      "topic": "alcohol-drugs",
+      "prompt": "In New York State, what Blood Alcohol Content (BAC) is legal evidence of Driving While Intoxicated (DWI) for a driver 21 or older in a non-commercial vehicle?",
+      "options": [
+        "0.15% or higher",
+        "0.12% or higher",
+        "0.02% or higher",
+        "0.08% or higher (and 0.18% or higher is Aggravated DWI)"
+      ],
+      "correctIndex": 3,
+      "explanation": "In New York State, a BAC of 0.08% or higher is evidence of Intoxication (DWI), while more than 0.05% up to 0.07% is legal evidence of Impairment (DWAI-Alcohol). A BAC of 0.18% or higher is Aggravated DWI.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 9: Alcohol and Other Drugs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-alcohol-02",
+      "topic": "alcohol-drugs",
+      "prompt": "Under New York's Zero Tolerance Law, a driver under age 21 who drives with a BAC of 0.02% to 0.07% faces:",
+      "options": [
+        "At least a 6-month license suspension, a civil penalty, and a suspension termination fee",
+        "Only a verbal warning on a first offense",
+        "A $25 parking ticket with no license penalty",
+        "Nothing unless their BAC exceeds 0.08%"
+      ],
+      "correctIndex": 0,
+      "explanation": "New York's Zero Tolerance Law applies to anyone under 21 who drives with a BAC of 0.02% to 0.07%. A first finding results in a 6-month license suspension plus civil penalties and fees.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 9: Zero Tolerance Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-alcohol-03",
+      "topic": "alcohol-drugs",
+      "prompt": "Which of the following statements about how alcohol leaves the human body is true?",
+      "options": [
+        "Drinking two cups of black coffee reduces BAC by half in 15 minutes",
+        "Only time allows the liver to oxidize and eliminate alcohol; coffee, cold showers, or exercise do NOT lower BAC",
+        "Taking a cold shower Sober-Up immediately restores reaction time",
+        "Hard liquor raises BAC, whereas beer and wine do not affect BAC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only time reduces Blood Alcohol Content (at roughly 0.015% per hour). Coffee, food, fresh air, or cold showers cannot speed up alcohol elimination; a 12-oz beer, 5-oz glass of wine, and 1.5-oz shot of liquor contain about the same amount of alcohol.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 9: How Alcohol Affects You",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-alcohol-04",
+      "topic": "alcohol-drugs",
+      "prompt": "Under Leandra's Law in New York State, driving while intoxicated (DWI) or impaired by drugs with a passenger who is 15 years old or younger in the vehicle is:",
+      "options": [
+        "Subject only to a $50 seatbelt fine",
+        "Treated as a minor traffic infraction",
+        "Automatically charged as a Class E felony, even on a first offense",
+        "Penalized only if a collision occurs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under New York's Child Passenger Protection Act (Leandra's Law), anyone driving intoxicated with a child aged 15 or younger in the vehicle faces an automatic Class E felony charge and mandatory ignition interlock device installation.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 9: Leandra's Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-conditions-01",
+      "topic": "special-conditions",
+      "prompt": "New York State law requires you to turn on your headlights from one-half hour after sunset to one-half hour before sunrise, AND:",
+      "options": [
+        "Parking lights alone satisfy the headlight requirement in rain",
+        "Only when driving through tunnels longer than 1 mile",
+        "Only on rural unpaved roads",
+        "Whenever you are using your windshield wipers continuously due to rain, sleet, snow, or fog, or when visibility is under 1,000 feet"
+      ],
+      "correctIndex": 3,
+      "explanation": "In New York State, headlights must be on from 30 minutes after sunset to 30 minutes before sunrise, whenever visibility is less than 1,000 feet, and at all times when windshield wipers are in use for rain, snow, or sleet.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Night Driving and Weather",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-conditions-02",
+      "topic": "special-conditions",
+      "prompt": "If your car begins to skid on an icy or wet road, how should you steer?",
+      "options": [
+        "Ease off the gas pedal and steer gently in the direction you want the front of the vehicle to go",
+        "Slam hard on the brakes and turn the wheel in the opposite direction",
+        "Shift into park while the wheels are spinning",
+        "Press the accelerator to the floor"
+      ],
+      "correctIndex": 0,
+      "explanation": "If your rear wheels begin to skid, take your foot off the accelerator and steer smoothly in the direction you want the front wheels to go (into the direction of the skid) until traction is restored.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Driving Emergencies - Skids",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-conditions-03",
+      "topic": "special-conditions",
+      "prompt": "If your right wheels accidentally drop off the paved edge of the highway onto a low unpaved shoulder, what should you do?",
+      "options": [
+        "Jerk the steering wheel sharply to the left at high speed",
+        "Ease off the gas, grip the steering wheel firmly, steer straight along the shoulder to slow down, and turn back onto the pavement gently when safe",
+        "Slam on the brakes immediately while half on the shoulder",
+        "Accelerate to jump the curb edge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Never jerk the wheel back onto the road at high speed, as the tire can catch the pavement edge and flip or spin the car into oncoming traffic. Ease off the gas, slow down straight, check traffic, and steer back smoothly.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Driving Emergencies - Running Off the Pavement",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-sharing-01",
+      "topic": "sharing-the-road",
+      "prompt": "In New York State, when a school bus stops with its red lights flashing on a divided highway that has a physical median barrier, who must stop?",
+      "options": [
+        "Traffic on the opposite side of the median may continue at 55 mph",
+        "Only traffic following behind the school bus must stop",
+        "Traffic approaching from BOTH directions must stop, even on a divided highway with a median",
+        "Only vehicles in the lane directly next to the bus must stop"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike many other states, New York State law requires drivers in BOTH directions to come to a complete stop (at least 20 feet away) for a stopped school bus with flashing red lights—EVEN on a multi-lane divided highway!",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 6: School Buses",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-sharing-02",
+      "topic": "sharing-the-road",
+      "prompt": "Under New York's Ambrose-Searles 'Move Over' Law, when approaching any parked or stopped emergency, hazard, tow, maintenance, or disabled vehicle displaying flashing lights on the roadside, you must:",
+      "options": [
+        "Honk your horn to alert the roadside workers",
+        "Maintain full highway speed in the lane closest to the shoulder",
+        "Stop in your travel lane until the roadside vehicle leaves",
+        "Slow down AND move over a lane away from the stopped vehicle whenever it is safe to do so"
+      ],
+      "correctIndex": 3,
+      "explanation": "New York's Move Over Law protects police, emergency vehicles, tow trucks, highway workers, and disabled vehicles with flashing hazard lights. You must slow down and move into a non-adjacent lane if safe.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 8: Move Over Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-sharing-03",
+      "topic": "sharing-the-road",
+      "prompt": "Why do large tractor-trailers often swing wide to the left before making a right turn at an intersection?",
+      "options": [
+        "Their rear wheels follow a shorter path than their front wheels and would otherwise ride up over the right curb",
+        "They are preparing to make a left turn instead",
+        "They are inviting smaller cars to pass them on the right",
+        "Trucks are required to use two lanes at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of a long trailer's 'off-tracking,' a large truck often must swing wide to the left to make a right turn. Never try to squeeze between a turning truck and the right curb!",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 11: Sharing the Road - Large Vehicles",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-sharing-04",
+      "topic": "sharing-the-road",
+      "prompt": "What does a triangle-shaped orange and red 'Slow Moving Vehicle' emblem mounted on the back of a farm tractor or horse-drawn buggy indicate?",
+      "options": [
+        "The vehicle is carrying flammable hazardous cargo at highway speed",
+        "The vehicle travels at 25 mph or less; slow down immediately",
+        "The vehicle is a school bus preparing to stop",
+        "Passing is prohibited for the next 5 miles"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fluorescent orange triangle with a red reflective border identifies a slow-moving vehicle designed to travel at speeds of 25 mph or less (such as farm machinery, construction equipment, or horse-drawn vehicles).",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 11: Sharing the Road - Slow Moving Vehicles",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ny-lesson-road-signs",
+      "topic": "road-signs",
+      "title": "NY Road Signs & Mandatory Exam Rule",
+      "body": "• Exam Requirement: On the New York permit test, you must answer at least 14 of 20 total questions correctly AND at least 2 of the 4 Road Signs questions correctly.\n• Octagon (Red): STOP completely before the stop line or crosswalk.\n• Downward Triangle (Red/White): YIELD the right-of-way.\n• White Vertical Rectangle: Regulatory law (Speed Limit, No Turn on Red, Keep Right).\n• Yellow Diamond: Warning of hazards ahead.\n• Orange Diamond: Work/construction zone.\n• Round Yellow: Railroad crossing ahead.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapters 1 & 4: Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-signals-markings",
+      "topic": "signals-markings",
+      "title": "New York City vs. Statewide Turn on Red & Markings",
+      "body": "• NYC Turn on Red Rule: In New York City, you may NEVER turn on a red light unless a sign explicitly permits it. Outside NYC, right on red is allowed after a full stop unless prohibited by a sign.\n• Flashing Red: Same as a STOP sign. Flashing Yellow: Proceed with caution.\n• Yellow Center Lines: Separate opposing traffic. You may cross a broken yellow line on your side to pass when safe.\n• White Lane Lines: Separate lanes moving in the same direction.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 4: Traffic Control",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-right-of-way",
+      "topic": "right-of-way",
+      "title": "Right-of-Way & Roundabouts in New York",
+      "body": "• Simultaneous Arrival: The driver on the left yields to the driver on the right.\n• Left Turns: Always yield to oncoming traffic and pedestrians.\n• Driveways/Alleys: Stop before the sidewalk and yield to pedestrians and roadway traffic.\n• Roundabouts: Yield to pedestrians and to traffic circulating counterclockwise inside the roundabout.\n• Gridlock: Never enter an intersection on a green light if traffic ahead prevents you from clearing it.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 5: Intersections and Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-turns-passing",
+      "topic": "turns-passing",
+      "title": "Signaling, U-Turns & Safe Passing",
+      "body": "• Signaling: Signal at least 100 feet before turning or changing lanes.\n• One-Way to One-Way Left Turn: Turn from the far-left lane into the far-left lane.\n• U-Turns: Prohibited on expressways, in school zones, in NYC business districts, and near curves/hills with less than 500 feet visibility.\n• Returning After Passing: Wait until you see the entire front of the passed car in your rearview mirror.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapters 5 & 6: Turns and Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-speed-distance",
+      "topic": "speed-distance",
+      "title": "NY Speed Limits & The Two-Second Rule",
+      "body": "• 55 mph: Default statewide maximum speed limit when no limit is posted (65 mph only where posted on designated highways).\n• 25 mph: Default unposted speed limit in New York City.\n• Two-Second Rule: Minimum safe following distance in ideal conditions; increase to 3–4+ seconds on wet/icy roads.\n• Expressways: Use the acceleration lane to match traffic speed; never back up if you miss an exit.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapters 8 & 10: Speed and Expressways",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-parking",
+      "topic": "parking",
+      "title": "No Parking vs. No Standing vs. No Stopping",
+      "body": "• No Parking: Temporary stops allowed to load/unload passengers or merchandise.\n• No Standing: Temporary stops allowed ONLY to pick up or drop off passengers.\n• No Stopping: Stop only to obey a traffic sign, signal, or officer.\n• Fire Hydrants: Never park within 15 feet of a fire hydrant.\n• Parallel Parking: Wheels must be within 12 inches of the curb.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 7: Parallel Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-safe-driving",
+      "topic": "safe-driving",
+      "title": "Seat Belts, Points & MV-104 Crash Reports",
+      "body": "• Seat Belts: Mandatory for ALL front- and back-seat occupants in New York State.\n• Point System: 11 or more points within 18 months can trigger license suspension.\n• MV-104 Accident Report: Must be filed with the DMV within 10 days if a crash involves injury, death, or property damage over $1,000.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapters 2, 3 & 8",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-alcohol-drugs",
+      "topic": "alcohol-drugs",
+      "title": "DWAI, DWI, Zero Tolerance & Leandra's Law",
+      "body": "• DWAI-Alcohol: More than 0.05% up to 0.07% BAC.\n• DWI (Intoxicated): 0.08% BAC or higher.\n• Aggravated DWI: 0.18% BAC or higher.\n• Zero Tolerance (Under 21): 0.02% to 0.07% BAC results in a minimum 6-month suspension.\n• Leandra's Law: Driving intoxicated with a child aged 15 or younger is an automatic Class E felony.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 9: Alcohol and Other Drugs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-special-conditions",
+      "topic": "special-conditions",
+      "title": "Headlights with Wipers, Skids & Road Edges",
+      "body": "• Headlights: Required from 30 min after sunset to 30 min before sunrise, when visibility is under 1,000 ft, and whenever windshield wipers are in continuous use.\n• Skids: Ease off the accelerator and steer in the direction you want the front wheels to go.\n• Dropped Wheel off Pavement: Ease off the gas, slow down straight along the shoulder, and steer gently back onto the road.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapter 10: Special Driving Conditions",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "ny-lesson-sharing-the-road",
+      "topic": "sharing-the-road",
+      "title": "NY School Bus Divided Highway Rule & Move Over",
+      "body": "• School Buses: In New York State, traffic in BOTH directions must stop at least 20 feet away for a school bus with flashing red lights—EVEN on a divided highway with a median barrier!\n• Move Over Law: Slow down and move over a lane for stopped emergency, tow, maintenance, or hazard vehicles.\n• Large Trucks: Never pass a right-turning truck on the right side.",
+      "source": {
+        "title": "New York State Driver's Manual",
+        "url": "https://dmv.ny.gov/driver-license/drivers-manual-practice-tests",
+        "section": "Chapters 6 & 11: Sharing the Road",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "DMV Practice Test: Smart Prep",
+    "slug": "dmv-smart-prep",
+    "version": "1.3.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "dmvsmartprep",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dmvsmartprep.app",
+      "usesAppleSignIn": true,
+      "buildNumber": "28",
+      "infoPlist": {
+        "CFBundleDisplayName": "DMV Smart Prep",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "appleTeamId": "G9G2DX2C7U"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dmvsmartprep.app",
+      "versionCode": 26,
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-apple-authentication",
+      "expo-dev-client"
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "c80973c1-2c51-452a-a8e7-1fef274b05fe"
+      }
+    },
+    "owner": "emircanmert"
+  }
+}

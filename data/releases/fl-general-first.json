@@ -1,0 +1,1302 @@
+{
+  "id": "release-fl-general-first-2026-v1",
+  "version": "1.0.0",
+  "state": "FL",
+  "vehicle": "car",
+  "profile": "general-first",
+  "language": "en",
+  "publishedAt": "2026-11-10T12:00:00.000Z",
+  "rule": {
+    "id": "rule-fl-general-first-v1",
+    "version": "1.0.0",
+    "state": "FL",
+    "vehicle": "car",
+    "profile": "general-first",
+    "questionCount": 50,
+    "minimumCorrect": 40,
+    "durationSeconds": 3600,
+    "sections": [
+      {
+        "topic": "road-signs",
+        "questionCount": 10,
+        "minimumCorrect": 8
+      }
+    ],
+    "verifiedAt": "2026-11-10",
+    "sourceUrl": "https://www.flhsmv.gov/resources/handbooks-manuals/"
+  },
+  "questions": [
+    {
+      "id": "fl-rs-01",
+      "topic": "road-signs",
+      "prompt": "What must you do when approaching this red octagonal sign?",
+      "options": [
+        "Come to a complete stop before the stop line or crosswalk and yield to pedestrians and cross traffic.",
+        "Slow down and proceed without stopping if no vehicles are near the intersection.",
+        "Stop only when turning left onto a two-way street.",
+        "Yield the right-of-way without stopping if you are turning right."
+      ],
+      "correctIndex": 0,
+      "explanation": "A STOP sign requires a complete stop behind the stop line, before the crosswalk, or before entering the intersection. Yield to all pedestrians and cross traffic before proceeding.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MUTCD_R1-1.svg/400px-MUTCD_R1-1.svg.png"
+    },
+    {
+      "id": "fl-rs-02",
+      "topic": "road-signs",
+      "prompt": "What does this downward-pointing red and white triangle sign require you to do?",
+      "options": [
+        "Maintain your speed because merging traffic must always yield to you.",
+        "Slow down, be ready to stop, and give the right-of-way to pedestrians and vehicles in the intersection.",
+        "Come to a full stop for at least 3 seconds before entering.",
+        "Accelerate to merge ahead of cross traffic."
+      ],
+      "correctIndex": 1,
+      "explanation": "A YIELD sign means you must slow down and yield the right-of-way to vehicles and pedestrians in or approaching the intersection. Be prepared to stop if necessary.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/MUTCD_R1-2.svg/400px-MUTCD_R1-2.svg.png"
+    },
+    {
+      "id": "fl-rs-03",
+      "topic": "road-signs",
+      "prompt": "What does this square red-and-white regulatory sign mean?",
+      "options": [
+        "Stop ahead and wait for a flagger to wave you through.",
+        "Road closed ahead to commercial trucks only.",
+        "Do Not Enter; opposing traffic is coming toward you on a one-way roadway or exit ramp.",
+        "No parking allowed along the curb during daytime hours."
+      ],
+      "correctIndex": 2,
+      "explanation": "The DO NOT ENTER sign is posted at one-way streets and freeway exit ramps where entering would put you into head-on opposing traffic.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/MUTCD_R5-1.svg/400px-MUTCD_R5-1.svg.png"
+    },
+    {
+      "id": "fl-rs-04",
+      "topic": "road-signs",
+      "prompt": "What does this regulatory symbol sign prohibit at the intersection?",
+      "options": [
+        "Passing slower vehicles on the right.",
+        "Making a left turn into a residential driveway.",
+        "Changing lanes within 100 feet of the intersection.",
+        "Making a U-turn to go back in the opposite direction."
+      ],
+      "correctIndex": 3,
+      "explanation": "A curved arrow with a red circle and slash means No U-Turn. You may not turn around to travel in the opposite direction where this sign is posted.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/MUTCD_R3-4.svg/400px-MUTCD_R3-4.svg.png"
+    },
+    {
+      "id": "fl-rs-05",
+      "topic": "road-signs",
+      "prompt": "What does this regulatory sign indicate?",
+      "options": [
+        "Left turns are prohibited at this intersection.",
+        "All traffic must turn left at the next intersection.",
+        "The left lane ends ahead; merge left.",
+        "U-turns are allowed, but right turns are prohibited."
+      ],
+      "correctIndex": 0,
+      "explanation": "A left arrow inside a red circle with a diagonal slash means No Left Turn.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/MUTCD_R3-2.svg/400px-MUTCD_R3-2.svg.png"
+    },
+    {
+      "id": "fl-rs-06",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond warning sign indicate?",
+      "options": [
+        "The right lane exits onto a toll road ahead.",
+        "Traffic is merging from the right ahead; be alert and adjust speed or lane position.",
+        "A divided highway begins ahead.",
+        "Two-way traffic begins immediately after the intersection."
+      ],
+      "correctIndex": 1,
+      "explanation": "This warning sign alerts you that another lane of traffic is merging from the right ahead.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Warning Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/MUTCD_W4-1.svg/400px-MUTCD_W4-1.svg.png"
+    },
+    {
+      "id": "fl-rs-07",
+      "topic": "road-signs",
+      "prompt": "What does this yellow diamond sign warn drivers to expect ahead?",
+      "options": [
+        "Pedestrian-only zone begins ahead.",
+        "An emergency fire station exit is ahead.",
+        "A traffic control signal (traffic light) is ahead; be prepared to slow down or stop.",
+        "Railroad crossing gates are down ahead."
+      ],
+      "correctIndex": 2,
+      "explanation": "The Signal Ahead warning sign alerts drivers to an upcoming traffic signal that may not yet be visible, giving you time to slow down and stop if the light is red or yellow.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Warning Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MUTCD_W3-3.svg/400px-MUTCD_W3-3.svg.png"
+    },
+    {
+      "id": "fl-rs-08",
+      "topic": "road-signs",
+      "prompt": "How should you respond when you see this yellow diamond warning sign?",
+      "options": [
+        "Engage your emergency parking brake while driving through curves.",
+        "Turn the steering wheel sharply to test tire traction.",
+        "Speed up to clear the wet pavement section more quickly.",
+        "Slow down and avoid sudden braking or sharp steering because the pavement is slippery when wet."
+      ],
+      "correctIndex": 3,
+      "explanation": "The Slippery When Wet sign warns that traction is reduced in wet weather. Reduce speed gradually and avoid abrupt braking or sharp turns.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Warning Signs",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/MUTCD_W8-5.svg/400px-MUTCD_W8-5.svg.png"
+    },
+    {
+      "id": "fl-rs-09",
+      "topic": "road-signs",
+      "prompt": "What does this circular yellow sign with an 'X' and 'RR' mean?",
+      "options": [
+        "Advance warning of a railroad crossing ahead; look, listen, slow down, and be prepared to stop.",
+        "Road repair work zone ahead; expect detour signs.",
+        "Rest area and recreational vehicle parking ahead.",
+        "Roundabout intersection ahead."
+      ],
+      "correctIndex": 0,
+      "explanation": "A round yellow warning sign with an X and RR gives advance notice of a highway-rail grade crossing ahead.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Railroad Crossings",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/MUTCD_W10-1.svg/400px-MUTCD_W10-1.svg.png"
+    },
+    {
+      "id": "fl-rs-10",
+      "topic": "road-signs",
+      "prompt": "What does this five-sided (pentagon-shaped) sign indicate?",
+      "options": [
+        "State park hiking trail crossing ahead.",
+        "You are entering a school zone or approaching a school crossing; slow down and watch for children.",
+        "Senior citizen residential district ahead.",
+        "Bus rapid transit station ahead."
+      ],
+      "correctIndex": 1,
+      "explanation": "A five-sided (pentagon) sign marks a school zone or school crossing. Drivers must obey posted school speed limits and watch carefully for children and crossing guards.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "School Zones",
+        "reviewedAt": "2026-11-10"
+      },
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MUTCD_S1-1.svg/400px-MUTCD_S1-1.svg.png"
+    },
+    {
+      "id": "fl-sm-01",
+      "topic": "signals-markings",
+      "prompt": "In Florida, when may you make a right turn at a steady red traffic light?",
+      "options": [
+        "Only when a green right-turn arrow is illuminated.",
+        "After slowing to 5 mph and checking for cross traffic.",
+        "After coming to a complete stop and yielding to pedestrians and cross traffic, unless a 'NO TURN ON RED' sign is posted.",
+        "At any time without stopping if you are in a dedicated right-turn lane."
+      ],
+      "correctIndex": 2,
+      "explanation": "In Florida, you may turn right on a steady red light after coming to a full stop and yielding to all pedestrians and oncoming/cross traffic, provided no sign prohibits the turn.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sm-02",
+      "topic": "signals-markings",
+      "prompt": "When is a left turn on a steady red light permitted in Florida?",
+      "options": [
+        "Whenever oncoming traffic is more than 300 feet away.",
+        "When turning from a two-way street onto a one-way street.",
+        "Never; left turns on red are always illegal in Florida.",
+        "When turning from a one-way street onto another one-way street after a complete stop, unless prohibited by a sign."
+      ],
+      "correctIndex": 3,
+      "explanation": "Florida law permits a left turn on a red light only when turning from a one-way street onto a one-way street where traffic moves to the left, after stopping completely and yielding.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sm-03",
+      "topic": "signals-markings",
+      "prompt": "What must you do when approaching an intersection where the traffic signals are completely dark due to a power outage?",
+      "options": [
+        "Treat the intersection as a four-way stop: come to a complete stop and yield before proceeding.",
+        "Proceed at the posted speed limit if you are on the wider roadway.",
+        "Flash your high-beam headlights and drive straight through.",
+        "Yield only to vehicles turning left."
+      ],
+      "correctIndex": 0,
+      "explanation": "If all traffic signal lights are out at an intersection, Florida law requires drivers to treat the intersection as an all-way (four-way) stop.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sm-04",
+      "topic": "signals-markings",
+      "prompt": "What does a flashing yellow arrow signal mean for drivers turning left?",
+      "options": [
+        "Left turns have protected right-of-way and oncoming traffic is stopped.",
+        "Left turns are allowed, but you must first yield to oncoming traffic and pedestrians.",
+        "You must come to a full stop before entering the intersection.",
+        "Left turns are prohibited."
+      ],
+      "correctIndex": 1,
+      "explanation": "A flashing yellow arrow indicates that left turns are permissive: you may turn in the direction of the arrow after yielding to pedestrians and oncoming traffic.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signals",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sm-05",
+      "topic": "signals-markings",
+      "prompt": "What do double solid yellow center lines on a two-way Florida roadway indicate?",
+      "options": [
+        "Traffic in both lanes travels in the same direction.",
+        "Passing is allowed in both directions if the road ahead is clear.",
+        "Passing is prohibited for traffic in both directions, though you may cross to turn left into or out of a driveway.",
+        "Left turns into driveways are strictly illegal."
+      ],
+      "correctIndex": 2,
+      "explanation": "Double solid yellow lines mark a no-passing zone for both directions of traffic. You may cross double solid yellow lines only to make a safe left turn into or from an alley, private road, or driveway.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Pavement Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-rw-01",
+      "topic": "right-of-way",
+      "prompt": "Under Florida's Move Over Law, what must you do when approaching an emergency vehicle, tow truck, sanitation vehicle, utility vehicle, or disabled vehicle with flashing lights stopped on the roadside?",
+      "options": [
+        "Slow down by 5 mph regardless of the posted speed limit.",
+        "Maintain your speed and stay in the lane closest to the shoulder.",
+        "Stop completely in your travel lane until the vehicle turns off its flashing lights.",
+        "Move over one lane away from the stopped vehicle on a multi-lane road, or if unable to move over safely, slow to 20 mph below the posted speed limit (5 mph if the limit is 20 mph or less)."
+      ],
+      "correctIndex": 3,
+      "explanation": "Florida's Move Over Law requires drivers on multi-lane roads to vacate the lane closest to the stopped emergency, service, or disabled vehicle displaying warning lights. If you cannot safely move over—or on a two-lane road—you must slow to 20 mph below the posted speed limit (or to 5 mph if the speed limit is 20 mph or less).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Florida Move Over Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-rw-02",
+      "topic": "right-of-way",
+      "prompt": "At a four-way stop intersection in Florida, when two vehicles arrive at the same time, who has the right-of-way?",
+      "options": [
+        "The driver on the right has the right-of-way.",
+        "The driver on the left has the right-of-way.",
+        "The driver turning left has the right-of-way over the driver going straight.",
+        "The larger vehicle has the right-of-way."
+      ],
+      "correctIndex": 0,
+      "explanation": "At a four-way stop, the first vehicle to stop should move forward first. If two vehicles reach the intersection at the same time, the driver on the left yields to the driver on the right.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Right-of-Way",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-rw-03",
+      "topic": "right-of-way",
+      "prompt": "When entering a roundabout in Florida, how does the right-of-way rule work?",
+      "options": [
+        "Drivers inside the roundabout must stop and yield to entering traffic.",
+        "Approaching drivers must yield to pedestrians and to traffic already circulating counterclockwise inside the roundabout.",
+        "You may enter a roundabout in either a clockwise or counterclockwise direction.",
+        "Bicyclists are prohibited from using roundabouts."
+      ],
+      "correctIndex": 1,
+      "explanation": "Traffic in a roundabout travels counterclockwise around a center island. Drivers approaching the roundabout must yield to pedestrians in the crosswalk and to vehicles already inside the circulating roadway.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Roundabouts",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-rw-04",
+      "topic": "right-of-way",
+      "prompt": "What must you do when a pedestrian with a white cane or a guide dog is crossing or attempting to cross the street?",
+      "options": [
+        "Slow down and drive around the pedestrian if they are still in the adjacent lane.",
+        "Sound your horn to let the pedestrian know you are passing in front of them.",
+        "Come to a complete stop and yield the right-of-way until the pedestrian has safely crossed the roadway.",
+        "Yield only when the pedestrian is inside a painted crosswalk."
+      ],
+      "correctIndex": 2,
+      "explanation": "Florida law grants blind or visually impaired pedestrians carrying a white cane (or accompanied by a guide dog) the absolute right-of-way. Drivers must come to a complete stop before approaching the intersection or crosswalk and wait until the pedestrian has cleared the roadway.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Pedestrians",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-rw-05",
+      "topic": "right-of-way",
+      "prompt": "When entering a public highway from a private driveway or alley, who must yield the right-of-way?",
+      "options": [
+        "Neither driver is required to yield if the speed limit is under 30 mph.",
+        "Vehicles on the public highway must yield to traffic exiting driveways.",
+        "You have the right-of-way if you turn right into the nearest lane.",
+        "You must stop/yield to all pedestrians on the sidewalk and all vehicles approaching on the public roadway."
+      ],
+      "correctIndex": 3,
+      "explanation": "Drivers emerging from an alley, building, private road, or driveway must yield the right-of-way to all pedestrians and all vehicles approaching on the public street.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Right-of-Way",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-tp-01",
+      "topic": "turns-passing",
+      "prompt": "In Florida, how far in advance must you activate your turn signal before making a left or right turn?",
+      "options": [
+        "At least 100 feet before turning.",
+        "At least 25 feet before turning.",
+        "Only after you begin turning the steering wheel.",
+        "At least 500 feet in residential neighborhoods."
+      ],
+      "correctIndex": 0,
+      "explanation": "Florida law requires you to give a turn signal for at least the last 100 feet before making a turn so other drivers and pedestrians know your intentions.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Making Turns",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-tp-02",
+      "topic": "turns-passing",
+      "prompt": "What is the maximum distance a vehicle may travel in a center two-way left-turn lane before making a left turn?",
+      "options": [
+        "Up to 1 mile as long as you keep your left turn signal on.",
+        "A center left-turn lane must only be used to prepare for or complete a turn and must never be used as a travel or passing lane.",
+        "At any distance to pass slower vehicles in the right lane.",
+        "Only commercial delivery vehicles may use the center turn lane."
+      ],
+      "correctIndex": 1,
+      "explanation": "A center two-way left-turn lane is shared by traffic in both directions exclusively for making left turns (or permitted U-turns). It must never be used for through travel or passing.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Pavement Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-tp-03",
+      "topic": "turns-passing",
+      "prompt": "In Florida, passing on the left on a two-lane road is prohibited within how many feet of an intersection, railroad crossing, bridge, viaduct, or tunnel?",
+      "options": [
+        "Within 500 feet in all circumstances.",
+        "Within 25 feet.",
+        "Within 100 feet.",
+        "Passing is allowed anywhere unless a police officer is present."
+      ],
+      "correctIndex": 2,
+      "explanation": "Under Florida law, you may not drive on the left side of the roadway to pass when approaching within 100 feet of an intersection, railroad grade crossing, bridge, viaduct, or tunnel, or on a hill/curve where view is obstructed.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-tp-04",
+      "topic": "turns-passing",
+      "prompt": "When you are being passed on the left by another vehicle, what does Florida law require you to do?",
+      "options": [
+        "Drive onto the unpaved shoulder at highway speed.",
+        "Speed up so the other driver returns behind you.",
+        "Move toward the center line to block the pass.",
+        "Give way to the right in favor of the overtaking vehicle and do not increase your speed until completely passed."
+      ],
+      "correctIndex": 3,
+      "explanation": "When another driver is overtaking and passing you on the left, you must stay to the right and must not increase your speed until the passing vehicle is safely back in the lane ahead.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-tp-05",
+      "topic": "turns-passing",
+      "prompt": "After passing another vehicle on a two-lane road, when is it safe to return to the right lane?",
+      "options": [
+        "When you can see the front tires of the vehicle you passed in your inside rearview mirror.",
+        "Immediately after your front bumper clears the other car's front bumper.",
+        "As soon as your passenger-side mirror aligns with the other driver's door.",
+        "Only after driving at least half a mile in the oncoming lane."
+      ],
+      "correctIndex": 0,
+      "explanation": "Before returning to the right lane after passing, signal right and wait until you can see the front tires (or entire front) of the passed vehicle in your rearview mirror.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-01",
+      "topic": "speed-distance",
+      "prompt": "Unless otherwise posted, what is the standard Florida maximum speed limit in municipal business or residential areas?",
+      "options": [
+        "20 mph",
+        "30 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Florida, unless otherwise posted, the standard speed limit in municipal, business, or residential areas is 30 mph.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Speed Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-02",
+      "topic": "speed-distance",
+      "prompt": "Unless otherwise posted, what is the standard speed limit on two-lane state highways outside municipal/business/residential areas in Florida?",
+      "options": [
+        "65 mph",
+        "40 mph",
+        "55 mph",
+        "70 mph"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Florida, the default speed limit on rural two-lane state and county highways outside business or residential districts is 55 mph unless posted otherwise.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Speed Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-03",
+      "topic": "speed-distance",
+      "prompt": "What minimum following distance does the Official Florida Driver License Handbook recommend under normal weather and traffic conditions?",
+      "options": [
+        "Half a car length in city traffic.",
+        "At least a 1-second following distance.",
+        "One car length for every 25 mph of speed.",
+        "At least a 4-second following distance behind the vehicle ahead."
+      ],
+      "correctIndex": 3,
+      "explanation": "The Florida Driver License Handbook recommends maintaining a minimum 4-second following distance under ideal conditions, and increasing that distance in rain, at night, or in heavy traffic.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Following Distance",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-04",
+      "topic": "speed-distance",
+      "prompt": "What is the typical posted speed limit in an active Florida school zone unless otherwise posted?",
+      "options": [
+        "15 to 20 mph during posted times or when yellow school zone lights are flashing.",
+        "35 mph at all times.",
+        "45 mph unless children are in the middle of the street.",
+        "10 mph only on weekends."
+      ],
+      "correctIndex": 0,
+      "explanation": "School zones in Florida have posted speed limits of 15 to 20 mph during specified school hours or when flashing beacons are active.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "School Zones",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-05",
+      "topic": "speed-distance",
+      "prompt": "When driving on a Florida rural interstate highway where the maximum speed limit is 70 mph, what is the minimum speed limit for vehicles?",
+      "options": [
+        "25 mph",
+        "50 mph",
+        "35 mph",
+        "60 mph"
+      ],
+      "correctIndex": 1,
+      "explanation": "On Florida interstate highways with a 70 mph maximum speed limit, the minimum speed limit is 50 mph (40 mph on interstates where the posted speed limit is 65 mph or less).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Speed Limits",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-pk-01",
+      "topic": "parking",
+      "prompt": "In Florida, what is the minimum distance you must park from a fire hydrant?",
+      "options": [
+        "At least 50 feet.",
+        "At least 5 feet.",
+        "At least 15 feet.",
+        "At least 100 feet."
+      ],
+      "correctIndex": 2,
+      "explanation": "Florida law prohibits parking within 15 feet of a fire hydrant.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-pk-02",
+      "topic": "parking",
+      "prompt": "Within how many feet of a flashing beacon, stop sign, or traffic control signal is parking prohibited in Florida?",
+      "options": [
+        "Within 100 feet.",
+        "Within 5 feet.",
+        "Within 10 feet.",
+        "Within 30 feet."
+      ],
+      "correctIndex": 3,
+      "explanation": "In Florida, you may not park within 30 feet of any rural mailbox, flashing beacon, stop sign, or traffic control signal located at the side of a roadway.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-pk-03",
+      "topic": "parking",
+      "prompt": "How should you turn your front wheels when parking uphill next to a curb?",
+      "options": [
+        "Turn the front wheels away from the curb (to the left) so the back of the right front tire touches the curb.",
+        "Turn the front wheels toward the curb (to the right).",
+        "Leave the front wheels pointing straight ahead.",
+        "Turn the wheels toward the curb only if the transmission is in neutral."
+      ],
+      "correctIndex": 0,
+      "explanation": "When parking uphill on a street with a curb, turn your front wheels away from the curb (left) and set the parking brake so the curb prevents the car from rolling backward into traffic.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking on Hills",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-pk-04",
+      "topic": "parking",
+      "prompt": "How close to the right-hand curb must your wheels be when parallel parking on a two-way street in Florida?",
+      "options": [
+        "Within 36 inches of the curb.",
+        "Within 12 inches of the right-hand curb.",
+        "On top of the curb.",
+        "Within 4 feet of the curb."
+      ],
+      "correctIndex": 1,
+      "explanation": "When parallel parking on a two-way roadway in Florida, your right-hand wheels must be parallel to and within 12 inches of the right-hand curb.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-pk-05",
+      "topic": "parking",
+      "prompt": "Within how many feet of a railroad crossing is parking prohibited in Florida?",
+      "options": [
+        "Within 15 feet of the nearest rail.",
+        "Within 10 feet of the nearest rail.",
+        "Within 50 feet of the nearest rail of a railroad crossing.",
+        "Within 200 feet of the nearest rail."
+      ],
+      "correctIndex": 2,
+      "explanation": "Florida law prohibits parking within 50 feet of the nearest rail of a railroad crossing.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-01",
+      "topic": "safe-driving",
+      "prompt": "What are the minimum mandatory insurance coverages required before registering a four-wheel motor vehicle in Florida?",
+      "options": [
+        "Insurance is required only after you are involved in a crash.",
+        "$5,000 in comprehensive coverage only.",
+        "$50,000 in collision coverage only.",
+        "$10,000 in Personal Injury Protection (PIP) and $10,000 in Property Damage Liability (PDL)."
+      ],
+      "correctIndex": 3,
+      "explanation": "Under Florida's No-Fault Law, owners of motor vehicles with four or more wheels must maintain at least $10,000 of Personal Injury Protection (PIP) and $10,000 of Property Damage Liability (PDL) insurance continuously while the vehicle is registered.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Florida Insurance Requirements",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-02",
+      "topic": "safe-driving",
+      "prompt": "Under Florida's Seat Belt Law, who must wear a seat belt or appropriate child restraint?",
+      "options": [
+        "The driver, all front-seat passengers, and all passengers under age 18 in any seat.",
+        "Only the driver when traveling on interstate highways.",
+        "Only passengers under age 12.",
+        "Only front-seat passengers when driving faster than 45 mph."
+      ],
+      "correctIndex": 0,
+      "explanation": "Florida law requires the driver, all front-seat passengers, and all passengers under 18 years old (in front or back seats) to wear a seat belt or approved child restraint.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Seat Belts & Child Restraints",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-03",
+      "topic": "safe-driving",
+      "prompt": "What does Florida's Child Restraint Law require for children through age 5?",
+      "options": [
+        "Children age 2 and older may use an adult lap belt alone.",
+        "Children age 0–3 must be in a separate carrier or integrated child seat, and children age 4–5 must be in a separate carrier, integrated child seat, or booster seat.",
+        "Children under 5 may ride on an adult passenger's lap in the back seat.",
+        "Booster seats are required only on interstate highways."
+      ],
+      "correctIndex": 1,
+      "explanation": "In Florida, children through age 3 must be secured in a separate crash-tested child carrier or vehicle manufacturer's integrated child seat, and children aged 4 through 5 must be in a separate carrier, integrated child seat, or child booster seat.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Child Restraint Requirements",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-04",
+      "topic": "safe-driving",
+      "prompt": "What does Florida's Wireless Communications While Driving Law prohibit?",
+      "options": [
+        "Calling 911 to report an emergency.",
+        "Using hands-free GPS navigation while mounted on the dashboard.",
+        "Manually typing, texting, or reading data on a wireless device while driving, and using any handheld wireless device in an active school crossing, school zone, or work zone.",
+        "Using a Bluetooth speakerphone while parked."
+      ],
+      "correctIndex": 2,
+      "explanation": "Florida law makes texting while driving a primary offense and also prohibits using a wireless communications device in a handheld manner while driving in a designated school crossing, school zone, or active work zone.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Distracted Driving",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-05",
+      "topic": "safe-driving",
+      "prompt": "Within how many days must you notify FLHSMV after changing your residential address in Florida?",
+      "options": [
+        "Only when your driver license expires.",
+        "Within 90 calendar days.",
+        "Within 1 year.",
+        "Within 30 calendar days."
+      ],
+      "correctIndex": 3,
+      "explanation": "Florida law requires licensed drivers to update their address with FLHSMV within 30 calendar days of moving.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "License Requirements",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-ad-01",
+      "topic": "alcohol-drugs",
+      "prompt": "In Florida, at what Blood Alcohol Level (BAL) is a driver age 21 or older presumed to be Driving Under the Influence (DUI)?",
+      "options": [
+        "0.08% or higher.",
+        "0.10% or higher.",
+        "0.05% or higher.",
+        "0.12% or higher."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Florida, you can be convicted of DUI if your normal faculties are impaired or if your blood or breath alcohol level is 0.08% or above.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "DUI Laws",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-ad-02",
+      "topic": "alcohol-drugs",
+      "prompt": "Under Florida's Zero Tolerance Law for drivers under age 21, at what breath or blood alcohol level will a driver's license be immediately suspended for 6 months?",
+      "options": [
+        "0.08% or higher.",
+        "0.02% or higher.",
+        "0.06% or higher.",
+        "0.10% or higher."
+      ],
+      "correctIndex": 1,
+      "explanation": "Under Florida's Zero Tolerance Law, any driver under 21 with a breath or blood alcohol level of 0.02% or higher will have their driving privilege suspended for 6 months.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Zero Tolerance",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-ad-03",
+      "topic": "alcohol-drugs",
+      "prompt": "What happens under Florida's Implied Consent Law if you refuse to take a lawful breath, urine, or blood test when arrested for DUI?",
+      "options": [
+        "Your vehicle registration is extended by 30 days.",
+        "You will receive a written warning with no license suspension.",
+        "Your driver license will be suspended for 1 year for a first refusal (18 months and a misdemeanor charge for a second or subsequent refusal).",
+        "Only 2 points are added to your driving record."
+      ],
+      "correctIndex": 2,
+      "explanation": "Under Florida's Implied Consent Law, refusing a lawful breath, urine, or blood test results in an automatic 1-year driver license suspension for a first refusal, and an 18-month suspension (plus a first-degree misdemeanor) for a second refusal.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Implied Consent Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-ad-04",
+      "topic": "alcohol-drugs",
+      "prompt": "Which mental faculty is typically the first to be affected after drinking alcohol?",
+      "options": [
+        "Color recognition.",
+        "Hearing.",
+        "Muscle strength.",
+        "Judgment and self-control."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alcohol affects judgment first, followed by vision, reaction time, and coordination. Even small amounts of alcohol impair decision-making behind the wheel.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Effects of Alcohol",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-ad-05",
+      "topic": "alcohol-drugs",
+      "prompt": "Under Florida's Open Container Law, where is an open alcoholic beverage container prohibited?",
+      "options": [
+        "In the possession of the driver or any passenger inside the passenger area of a motor vehicle on a public road or right-of-way.",
+        "Locked in the trunk of a sedan.",
+        "In the locked glove compartment of an unoccupied parked vehicle.",
+        "Inside a chartered tour bus driven by a commercial driver."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Florida, it is illegal for the driver or any passenger to possess an open container of alcohol while the vehicle is being operated or parked on a public roadway.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Open Container Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sc-01",
+      "topic": "special-conditions",
+      "prompt": "When must you turn on your vehicle's headlights in Florida?",
+      "options": [
+        "Only between midnight and 5:00 a.m.",
+        "Between sunset and sunrise, and during any rain, smoke, or fog.",
+        "Only when driving on unlit rural highways.",
+        "Parking lights may be used instead of headlights during heavy rain."
+      ],
+      "correctIndex": 1,
+      "explanation": "Florida law requires headlights to be turned on between sunset and sunrise, and during any time of rain, smoke, or fog. Driving with only parking lights on is illegal.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Headlight Use",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sc-02",
+      "topic": "special-conditions",
+      "prompt": "In Florida, within what distances must you dim your high-beam headlights at night?",
+      "options": [
+        "Within 1,000 feet in both situations.",
+        "Within 100 feet of an oncoming vehicle and within 50 feet when following another vehicle.",
+        "Within 500 feet of an oncoming vehicle and within 300 feet when following behind another vehicle.",
+        "High beams only need to be dimmed in residential neighborhoods."
+      ],
+      "correctIndex": 2,
+      "explanation": "Florida law requires you to switch from high-beam to low-beam headlights within 500 feet of an oncoming vehicle and within 300 feet of a vehicle you are following.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Night Driving",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sc-03",
+      "topic": "special-conditions",
+      "prompt": "May you drive with your four-way emergency hazard flashers turned on during heavy rain in Florida?",
+      "options": [
+        "Hazard lights disable your brake lights on all modern vehicles.",
+        "Hazard lights must be used instead of headlights during all rainstorms.",
+        "Hazard lights give you the right-of-way to exceed the speed limit.",
+        "Only on highways with a posted speed limit of 55 mph or higher when visibility is extremely low; otherwise, hazard lights are primarily for stopped or disabled vehicles."
+      ],
+      "correctIndex": 3,
+      "explanation": "Under updated Florida law, drivers may use flashing hazard lights in extremely low visibility (rain, smoke, or fog) on roads with a speed limit of 55 mph or higher, while always keeping low-beam headlights on.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Driving in Rain & Fog",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sc-04",
+      "topic": "special-conditions",
+      "prompt": "What should you do if your vehicle starts to hydroplane on a wet Florida road?",
+      "options": [
+        "Take your foot off the accelerator slowly, keep the steering wheel straight, and do not slam on the brakes.",
+        "Brake hard immediately and turn toward the shoulder.",
+        "Accelerate to push water out from under the tires.",
+        "Shift into reverse to slow the wheels."
+      ],
+      "correctIndex": 0,
+      "explanation": "If your tires begin to hydroplane on standing water, ease your foot off the gas pedal, keep the steering wheel straight, and avoid sudden braking until your tires regain traction.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Skids & Hydroplaning",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sc-05",
+      "topic": "special-conditions",
+      "prompt": "What should you do if your right wheels drop off the paved edge of the highway onto an unpaved shoulder?",
+      "options": [
+        "Jerk the steering wheel sharply to the left at highway speed.",
+        "Take your foot off the gas, hold the steering wheel firmly, brake lightly to slow down, and steer gently back onto the pavement when safe.",
+        "Slam on the brakes while half the car is on the dirt shoulder.",
+        "Accelerate rapidly to climb the pavement edge."
+      ],
+      "correctIndex": 1,
+      "explanation": "If your wheels run off the pavement edge, do not jerk the wheel back onto the road. Ease off the accelerator, grip the wheel firmly, slow down gradually, and steer smoothly back onto the roadway once traffic is clear.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Handling Emergencies",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sr-01",
+      "topic": "sharing-the-road",
+      "prompt": "On a Florida divided highway, when is oncoming traffic NOT required to stop for a school bus with flashing red lights and extended stop arms?",
+      "options": [
+        "Whenever there is a center two-way left-turn lane.",
+        "On any four-lane road painted with a double yellow center line.",
+        "Only when the highway is divided by an unpaved space of at least 5 feet, a raised median, or a physical barrier.",
+        "Whenever the oncoming driver is traveling under 35 mph."
+      ],
+      "correctIndex": 2,
+      "explanation": "In Florida, traffic moving in the opposite direction on a multi-lane road must stop for a school bus UNLESS the highway is divided by an unpaved median of at least 5 feet, a raised median, or a physical barrier. Traffic moving in the same direction as the bus must always stop.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "School Buses",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sr-02",
+      "topic": "sharing-the-road",
+      "prompt": "What minimum safe clearance distance does Florida law require when passing a bicyclist?",
+      "options": [
+        "No specific distance as long as you sound your horn.",
+        "At least 1 foot between your mirror and the bicycle.",
+        "At least 10 feet in all city lanes.",
+        "At least 3 feet between your vehicle and the bicycle."
+      ],
+      "correctIndex": 3,
+      "explanation": "Florida law requires motorists to leave a minimum safe distance of at least 3 feet when overtaking and passing a bicyclist.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Sharing the Road with Bicyclists",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sr-03",
+      "topic": "sharing-the-road",
+      "prompt": "Where are the largest blind spots ('No-Zones') around a commercial tractor-trailer?",
+      "options": [
+        "Up to 20 feet in front of the cab, up to 30 feet behind the trailer, and along both sides—especially the right side.",
+        "Only directly behind the trailer when backing up.",
+        "Only on the driver's left side.",
+        "Large trucks have no blind spots because of wide-angle mirrors."
+      ],
+      "correctIndex": 0,
+      "explanation": "Large commercial trucks have deep blind spots ('No-Zones') in front, behind, and along both sides. If you cannot see the truck driver's face in their side mirror, they cannot see you.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Commercial Vehicles (No-Zones)",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sr-04",
+      "topic": "sharing-the-road",
+      "prompt": "What should you remember when sharing the road with motorcyclists in Florida?",
+      "options": [
+        "Motorcyclists must ride on the paved shoulder so cars can pass in the lane.",
+        "A motorcyclist is entitled to the full width of a traffic lane; never try to share the same lane alongside a motorcycle.",
+        "Turn signals on all motorcycles cancel automatically just like passenger cars.",
+        "Motorcycles need a longer stopping distance than commercial trucks."
+      ],
+      "correctIndex": 1,
+      "explanation": "Motorcyclists have the same rights and responsibilities as other drivers and are entitled to the full width of a lane. Never attempt to squeeze into the same lane beside a motorcycle.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Motorcycles",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sr-05",
+      "topic": "sharing-the-road",
+      "prompt": "At a railroad crossing in Florida, how far from the nearest rail must you stop when warning lights are flashing or a train is approaching?",
+      "options": [
+        "At least 100 feet from the nearest rail.",
+        "Within 5 feet of the nearest rail.",
+        "Not less than 15 feet nor more than 50 feet from the nearest rail.",
+        "Directly on the tracks if traffic ahead is moving slowly."
+      ],
+      "correctIndex": 2,
+      "explanation": "When stopping for a railroad crossing in Florida, you must stop between 15 feet and 50 feet from the nearest rail and remain stopped until the gates rise and the warning lights stop flashing.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Railroad Crossings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-06",
+      "topic": "safe-driving",
+      "prompt": "What are the restrictions for a Florida driver holding a Learner's License during the first 3 months after issuance?",
+      "options": [
+        "Driving at any hour if accompanied by a licensed 18-year-old.",
+        "Driving until 10:00 p.m. without an accompanying adult.",
+        "Driving alone to and from school or work.",
+        "Daylight driving only, accompanied by a licensed driver age 21 or older occupying the closest seat to the right of the driver."
+      ],
+      "correctIndex": 3,
+      "explanation": "During the first 3 months, a Florida Learner's License holder may drive only during daylight hours (and until 10:00 p.m. after the first 3 months), and must always be accompanied by a licensed driver age 21 or older in the front passenger seat.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Learner's License Restrictions",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-07",
+      "topic": "safe-driving",
+      "prompt": "How many hours of supervised driving practice (and how many at night) are required for a teen under 18 before obtaining a Florida Class E driver license?",
+      "options": [
+        "At least 50 hours of supervised driving practice, including at least 10 hours at night.",
+        "At least 20 hours of practice with 2 hours at night.",
+        "At least 100 hours of practice with 25 hours at night.",
+        "No supervised hours are required once the knowledge exam is passed."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Florida, a parent or guardian must certify that a teen driver has completed at least 50 hours of behind-the-wheel driving experience, of which at least 10 hours must be at night, while holding a Learner's License for 12 months without a traffic conviction.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Graduated Driver Licensing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sf-08",
+      "topic": "safe-driving",
+      "prompt": "In Florida, when a load extends 4 feet or more beyond the rear bed or body of a vehicle, how must it be marked during the daytime?",
+      "options": [
+        "With a white handkerchief tied to the bumper.",
+        "With a red flag at least 18 inches square at the extreme rear of the load.",
+        "With blue flashing lights on the roof.",
+        "No flag is needed during daylight hours."
+      ],
+      "correctIndex": 1,
+      "explanation": "Florida law requires any load extending 4 feet or more beyond the rear of a vehicle to be marked with a red flag at least 18 inches square during the day (and red lights/reflectors at night).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Projecting Loads",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sm-06",
+      "topic": "signals-markings",
+      "prompt": "What do blue pavement markings or signs at parking spaces indicate in Florida?",
+      "options": [
+        "Electric vehicle charging for any passenger car.",
+        "Short-term 15-minute customer loading zones.",
+        "Parking reserved exclusively for vehicles displaying a valid disabled parking permit or license plate.",
+        "Carpool parking during weekday mornings."
+      ],
+      "correctIndex": 2,
+      "explanation": "Blue curb and pavement markings designate accessible parking spaces reserved for individuals with disabilities who display a valid disabled parking permit or license plate.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Disabled Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-sd-06",
+      "topic": "speed-distance",
+      "prompt": "Under Florida's 'Slow Poke' / Left-Lane Law on multi-lane highways, when must you move out of the furthest left-hand lane?",
+      "options": [
+        "Only on two-lane residential streets.",
+        "Never, as long as you are driving at the posted speed limit.",
+        "Only when an emergency vehicle with sirens is behind you.",
+        "When you know or reasonably should know that you are being overtaken in that lane from the rear by a vehicle traveling at a higher speed."
+      ],
+      "correctIndex": 3,
+      "explanation": "In Florida, on multi-lane roads, drivers must not continue to operate in the furthest left-hand lane if they know or reasonably should know they are being overtaken from behind by a faster-moving vehicle (unless preparing for a left turn).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Lane Usage",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "fl-lesson-01",
+      "topic": "road-signs",
+      "title": "Florida Regulatory, Warning & School Zone Signs",
+      "body": "Florida road signs use standardized shapes and colors:\n• Octagon (Red/White): STOP completely behind the stop line or crosswalk.\n• Downward Triangle (Red/White): YIELD the right-of-way.\n• Pentagon (Fluorescent Yellow-Green): School zone or school crossing (15–20 mph when active).\n• Round (Yellow/Black): Railroad crossing advance warning.\n• Diamond (Yellow/Black): Warning of hazards or changing road conditions ahead.\n• Diamond (Orange/Black): Construction and maintenance work zones (fines are doubled when workers are present).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Traffic Signs",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-02",
+      "topic": "signals-markings",
+      "title": "Florida Traffic Signals & Pavement Markings",
+      "body": "• Right Turn on Red: Permitted after a full stop and yielding, unless 'NO TURN ON RED' is posted.\n• Left Turn on Red: Permitted ONLY from a one-way street onto a one-way street after a complete stop.\n• Flashing Yellow Arrow: Left turn is permitted after yielding to oncoming traffic and pedestrians.\n• Blacked-Out Signal: Treat any dark/non-working traffic signal as a 4-way stop.\n• Yellow Lines: Separate opposing traffic. Double solid yellow prohibits passing in both directions.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Signals & Markings",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-03",
+      "topic": "right-of-way",
+      "title": "Florida Right-of-Way & Move Over Law",
+      "body": "• Florida Move Over Law: When approaching a stopped law enforcement, emergency, tow, sanitation, utility, or disabled vehicle displaying warning lights, vacate the lane closest to the vehicle. If you cannot safely move over (or on a two-lane road), slow to 20 mph below the posted speed limit (or 5 mph if the speed limit is 20 mph or less).\n• Roundabouts: Traffic moves counterclockwise; entering drivers must yield to pedestrians and circulating traffic.\n• Blind Pedestrians: Drivers must come to a complete stop for pedestrians using a white cane or guide dog.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Right-of-Way & Move Over Law",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-04",
+      "topic": "turns-passing",
+      "title": "Signaling, Turning & Passing in Florida",
+      "body": "• Turn Signal Distance: Signal continuously for at least the last 100 feet before turning.\n• No-Passing Zones: Never pass within 100 feet of an intersection, railroad crossing, bridge, viaduct, or tunnel, or where double solid yellow lines are marked.\n• Returning After Passing: Wait until you can see the front tires of the passed vehicle in your rearview mirror before moving back into the right lane.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Turns & Passing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-05",
+      "topic": "speed-distance",
+      "title": "Florida Standard Speed Limits & 4-Second Rule",
+      "body": "Unless otherwise posted, standard Florida speed limits are:\n• 15–20 mph in active school zones.\n• 30 mph in municipal, business, or residential areas.\n• 55 mph on two-lane state highways outside urban areas.\n• 70 mph maximum (50 mph minimum) on rural interstate highways.\n• Following Distance: Maintain at least a 4-second following distance under normal conditions.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Speed Limits & Following Distance",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-06",
+      "topic": "parking",
+      "title": "Florida Parking Distances & Hill Parking",
+      "body": "• Parallel Parking: Wheels must be within 12 inches of the right-hand curb.\n• Prohibited Distances:\n  - Within 15 feet of a fire hydrant.\n  - Within 20 feet of a crosswalk at an intersection or a fire station entrance.\n  - Within 30 feet of a stop sign, flashing beacon, traffic signal, or rural mailbox.\n  - Within 50 feet of the nearest rail of a railroad crossing.\n• Hill Parking: Turn wheels away from the curb (left) when facing uphill with a curb; turn wheels toward the curb/edge (right) in all other hill situations.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Parking",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-07",
+      "topic": "safe-driving",
+      "title": "Florida No-Fault Insurance, Seat Belts & Learner's License",
+      "body": "• Mandatory Insurance: $10,000 Personal Injury Protection (PIP) and $10,000 Property Damage Liability (PDL).\n• Seat Belts & Child Restraints: Mandatory for driver, all front-seat passengers, and everyone under 18. Children 0–3 must use a separate carrier/integrated child seat; ages 4–5 may also use a booster seat.\n• Learner's License: Daylight driving only for the first 3 months (until 10 p.m. thereafter) with a licensed driver 21+ in the front passenger seat; 50 supervised hours (10 at night) required before Class E.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Insurance & Licensing",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-08",
+      "topic": "alcohol-drugs",
+      "title": "Florida DUI, Zero Tolerance & Implied Consent",
+      "body": "• Adult DUI Limit: 0.08% BAL or higher (or any impairment of normal faculties).\n• Zero Tolerance (Under 21): 0.02% BAL or higher triggers an immediate 6-month license suspension.\n• Implied Consent: Refusing a lawful chemical test results in a 1-year suspension (first refusal) or 18-month suspension + misdemeanor charge (second refusal).",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Alcohol & DUI",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-09",
+      "topic": "special-conditions",
+      "title": "Headlights, Rain & Night Driving in Florida",
+      "body": "• Headlight Hours: Sunset to sunrise, and during any rain, smoke, or fog (parking lights alone are never legal while driving).\n• High Beams: Dim high beams within 500 feet of an oncoming vehicle and within 300 feet when following another vehicle.\n• Hydroplaning: Ease off the accelerator and keep the wheel straight without sudden braking.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Night & Weather Driving",
+        "reviewedAt": "2026-11-10"
+      }
+    },
+    {
+      "id": "fl-lesson-10",
+      "topic": "sharing-the-road",
+      "title": "School Buses, Bicyclists & Railroad Crossings in Florida",
+      "body": "• School Buses: All traffic in both directions must stop for a stopped school bus displaying flashing red lights UNLESS travelling in the opposite direction on a highway divided by an unpaved space of at least 5 feet, a raised median, or a physical barrier.\n• Bicyclists: Leave at least 3 feet of clearance when passing.\n• Railroad Crossings: Stop between 15 and 50 feet from the nearest rail when warning lights flash or gates lower.",
+      "source": {
+        "title": "Official Florida Driver License Handbook",
+        "url": "https://www.flhsmv.gov/resources/handbooks-manuals/",
+        "section": "Sharing the Road",
+        "reviewedAt": "2026-11-10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "dmv-smart-prep",
+  "version": "1.3.1",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "admin": "npm --prefix admin-web run dev",
+    "test:us": "node --experimental-strip-types --test tests/us-*.test.mjs",
+    "validate:content": "node --experimental-strip-types scripts/validate-content.mjs",
+    "compose:content": "node --experimental-strip-types scripts/compose-content.mjs",
+    "release:check:ios": "node --experimental-strip-types scripts/check-ios-release.mjs"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "~58.0.11",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "^2.95.3",
+    "expo": "~58.0.21",
+    "expo-apple-authentication": "~58.0.2",
+    "expo-auth-session": "~58.0.16",
+    "expo-blur": "~58.0.5",
+    "expo-constants": "~58.0.14",
+    "expo-crypto": "~58.0.7",
+    "expo-dev-client": "~58.0.17",
+    "expo-linking": "~58.0.15",
+    "expo-notifications": "~58.1.7",
+    "expo-router": "~58.0.28",
+    "expo-status-bar": "~58.0.4",
+    "expo-web-browser": "~58.0.7",
+    "lucide-react-native": "^0.564.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-google-mobile-ads": "^17.4.0",
+    "react-native-purchases": "^10.16.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-svg": "15.16.0",
+    "react-native-url-polyfill": "^3.0.0",
+    "react-native-web": "~0.21.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.3",
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
